@@ -1,0 +1,74 @@
+name: Tokyo 822 official data free update
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 04:00 JST every day = 19:00 UTC on the previous day
+    - cron: "0 19 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tokyo-822-official-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Update all 822 facilities in 50-facility checkpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          TOTAL=822
+          BATCH=50
+
+          for START in $(seq 1 $BATCH $TOTAL); do
+            END=$((START + BATCH - 1))
+            if [ "$END" -gt "$TOTAL" ]; then END=$TOTAL; fi
+
+            echo "===== Updating ${START}-${END} / ${TOTAL} ====="
+            python update_tokyo_822.py --start "$START" --count "$BATCH"
+
+            git add docs/tokyo_822_latest.json docs/tokyo_822_latest.csv
+            if ! git diff --cached --quiet; then
+              git commit -m "Update Tokyo official data ${START}-${END}"
+              git push
+            fi
+          done
+
+      - name: Upload latest result artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tokyo-822-latest
+          path: |
+            docs/tokyo_822_latest.json
+            docs/tokyo_822_latest.csv
+          if-no-files-found: warn
+          retention-days: 30
