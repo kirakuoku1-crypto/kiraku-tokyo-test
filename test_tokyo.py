@@ -1,3 +1,4 @@
+import html
 import json
 import re
 import sys
@@ -26,8 +27,15 @@ result = {
     "success": False,
 }
 
-def normalize(text: str) -> str:
-    return re.sub(r"\s+", " ", text or "").strip()
+def html_to_text(source: str) -> str:
+    # hiddenタブ内の情報も含めてHTML全体をテキスト化する
+    s = re.sub(r"<script[\s\S]*?</script>", " ", source, flags=re.I)
+    s = re.sub(r"<style[\s\S]*?</style>", " ", s, flags=re.I)
+    s = re.sub(r"<br\s*/?>", "\n", s, flags=re.I)
+    s = re.sub(r"</(?:tr|td|th|p|div|li|h[1-6]|section)>", "\n", s, flags=re.I)
+    s = re.sub(r"<[^>]+>", " ", s)
+    s = html.unescape(s)
+    return re.sub(r"\s+", " ", s).strip()
 
 try:
     with sync_playwright() as p:
@@ -52,49 +60,58 @@ try:
 
         # --- 空き情報 ---
         response = page.goto(FEATURE_URL, wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(2500)
-        feature_text = normalize(page.locator("body").inner_text(timeout=15000))
+        page.wait_for_timeout(2000)
+        feature_html = page.content()
+        feature_text = html_to_text(feature_html)
+        Path("feature_page.html").write_text(feature_html, encoding="utf-8")
+
         result["feature_http_status"] = response.status if response else None
         result["feature_title"] = page.title()
-        result["feature_text_head"] = feature_text[:1000]
-        Path("feature_page.html").write_text(page.content(), encoding="utf-8")
 
         m_vac = re.search(r"空き数/定員\s*(\d+)\s*/\s*(\d+)\s*人", feature_text)
-        if not m_vac:
-            m_vac = re.search(r"現在の空き数\s*(\d+)\s*人", feature_text)
-            if m_vac:
-                result["vacancy"] = int(m_vac.group(1))
-        else:
+        if m_vac:
             result["vacancy"] = int(m_vac.group(1))
             result["capacity_from_vacancy"] = int(m_vac.group(2))
+        else:
+            m_vac2 = re.search(r"現在の空き数\s*(\d+)\s*人", feature_text)
+            if m_vac2:
+                result["vacancy"] = int(m_vac2.group(1))
 
-        m_date = re.search(r"（\s*(20\d{2})年\s*(\d{1,2})月\s*(\d{1,2})日時点\s*）", feature_text)
+        m_date = re.search(
+            r"(20\d{2})年\s*(\d{1,2})月\s*(\d{1,2})日時点",
+            feature_text
+        )
         if m_date:
-            result["vacancy_date"] = f"{m_date.group(1)}-{int(m_date.group(2)):02d}-{int(m_date.group(3)):02d}"
+            result["vacancy_date"] = (
+                f"{m_date.group(1)}-{int(m_date.group(2)):02d}-{int(m_date.group(3)):02d}"
+            )
 
-        # --- 待機者数 ---
+        # --- 待機者数・定員 ---
         response2 = page.goto(DETAIL_URL, wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(2500)
-        detail_text = normalize(page.locator("body").inner_text(timeout=15000))
+        page.wait_for_timeout(2000)
+        detail_html = page.content()
+        detail_text = html_to_text(detail_html)
+        Path("detail_page.html").write_text(detail_html, encoding="utf-8")
+
         result["detail_http_status"] = response2.status if response2 else None
         result["detail_title"] = page.title()
-        result["detail_text_head"] = detail_text[:1000]
-        Path("detail_page.html").write_text(page.content(), encoding="utf-8")
 
-        # 「待機者数」から近い場所の数値を優先
+        # hiddenの「サービス内容」領域もHTML全体から取得
         m_wait = re.search(
-            r"待機者数[^0-9]{0,250}?(\d+)\s*人",
+            r"待機者数(?:（[^）]*）)?[^0-9]{0,500}?(\d+)\s*人",
             detail_text
         )
         if m_wait:
             result["waiting_count"] = int(m_wait.group(1))
 
-        m_cap = re.search(r"入所定員\s*(\d+)\s*人", detail_text)
+        m_cap = re.search(r"入所定員[^0-9]{0,100}?(\d+)\s*人", detail_text)
         if m_cap:
             result["capacity"] = int(m_cap.group(1))
 
         result["success"] = (
-            isinstance(result.get("vacancy"), int)
+            result.get("feature_http_status") == 200
+            and result.get("detail_http_status") == 200
+            and isinstance(result.get("vacancy"), int)
             and isinstance(result.get("waiting_count"), int)
         )
 
