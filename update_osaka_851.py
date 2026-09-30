@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# KIRAKU_OSAKA_WAITING_PARSER_VERSION: 5
 """Kiraku Osaka 851 official vacancy/waiting updater.
 
 Sources (priority):
@@ -369,42 +370,37 @@ def parse_detail(text: str) -> Tuple[Optional[int], Optional[int]]:
     wait = None
     cap = None
 
-    # html_to_text() normalizes NFKC, so Japanese full-width parentheses become
-    # ASCII parentheses. MHLW rows often look like either:
-    #   待機者数(入所希望者で入所していない者の数) 5人
-    # or:
-    #   待機者数 ... あり (その人数: 5人)
-    # First prefer a value on the same rendered table row. This avoids consuming
-    # an unrelated capacity/occupancy number from a later row.
-    for line in text.splitlines():
-        if "待機者数" not in line:
-            continue
-        tail = line.split("待機者数", 1)[1]
-        m = re.search(r"(\d+)\s*人", tail)
+    # MHLW pages split table cells across line breaks.  Normalize a limited
+    # window after 待機者数 so the value can be read whether it is rendered on
+    # the same line, a following cell, or the separate 「その人数」 row.
+    pos = text.find("待機者数")
+    if pos >= 0:
+        chunk = text[pos:pos + 1400]
+        compact = re.sub(r"\s+", " ", chunk)
+
+        # Detailed (kihon) layout:
+        # 待機者数 ... あり ... その人数 ... 5人
+        m = re.search(r"待機者数.{0,900}?その人数.{0,320}?(\d+)\s*人", compact)
         if m:
             wait = int(m.group(1))
-            break
-
-    # Some MHLW layouts insert a line break inside the waiting-count row. In
-    # those cases only accept a number after the explicit 'その人数' cue.
-    if wait is None:
-        pos = text.find("待機者数")
-        if pos >= 0:
-            chunk = text[pos:pos + 700]
-            m = re.search(r"その人数[^0-9\n]{0,180}?(\d+)\s*人", chunk)
+        else:
+            # Simplified (kani) layout:
+            # 待機者数 ... 5人
+            # Keep the window tight enough not to drift into unrelated rows.
+            m = re.search(r"待機者数.{0,260}?(\d+)\s*人", compact)
             if m:
                 wait = int(m.group(1))
 
-    # Capacity must come from the actual 入所定員 row, not from explanatory
-    # text inside the 待機者数 label (which also contains the words 入所定員).
-    for line in text.splitlines():
-        if not re.match(r"^\s*入所定員", line):
-            continue
-        tail = line.split("入所定員", 1)[1]
-        m2 = re.search(r"(\d+)\s*人", tail)
+    # Capacity must come from the actual 入所定員 row.  Allow the value to be
+    # separated by a cell/line break but keep the search window narrow.
+    pos_cap = text.find("入所定員")
+    # The detailed waiting label itself contains the words 入所定員.  Only
+    # treat 入所定員 as the capacity row when it appears before 待機者数.
+    if pos_cap >= 0 and (pos < 0 or pos_cap < pos):
+        cap_chunk = re.sub(r"\s+", " ", text[pos_cap:pos_cap + 320])
+        m2 = re.search(r"入所定員.{0,180}?(\d+)\s*人", cap_chunk)
         if m2:
             cap = int(m2.group(1))
-            break
     return wait, cap
 
 
