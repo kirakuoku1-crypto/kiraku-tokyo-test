@@ -7,7 +7,7 @@
     "取得不可": "確認した公式・公的サイトから空床・待機人数のいずれも機械取得できない"
   },
   "total_facilities": 851,
-  "generated_at_jst": "2026-09-30T22:02:31+09:00",
+  "generated_at_jst": "2026-09-30T22:02:38+09:00",
   "mhlw_open_data_urls": {
     "510": "https://www.mhlw.go.jp/content/12300000/jigyosho_510_all_20260709180754.csv",
     "520": "https://www.mhlw.go.jp/content/12300000/jigyosho_520_all_20260709180802.csv",
@@ -18,11 +18,10 @@
     "records": 851,
     "classification_counts": {
       "取得不可": 453,
-      "空床取得可能": 397,
-      "未調査": 1
+      "空床取得可能": 398
     },
-    "matched_official_pages": 820,
-    "vacancy_values_numeric": 393,
+    "matched_official_pages": 821,
+    "vacancy_values_numeric": 394,
     "waiting_values": 0
   },
   "data": [
@@ -23832,27 +23831,27 @@
       "type": "介護医療院",
       "address": "東大阪市長堂一丁目２８番６号",
       "city": "東大阪市",
+      "jigyosyo_cd": "27B5000018",
       "service_cd": "550",
-      "jigyosyo_cd": "",
-      "match_method": "pending",
-      "match_score": 0,
-      "classification": "未調査",
-      "vacancy": null,
-      "capacity": null,
+      "match_method": "mhlw_name_address",
+      "match_score": 1.0,
+      "classification": "空床取得可能",
+      "vacancy": 1,
+      "capacity": 58,
       "waiting_count": null,
-      "vacancy_date": "",
-      "public_value": "",
-      "vacancy_source_type": "",
-      "vacancy_source_url": "",
+      "vacancy_date": "2026-03-13",
+      "public_value": "1/58人",
+      "vacancy_source_type": "厚労省公式",
+      "vacancy_source_url": "https://www.kaigokensaku.mhlw.go.jp/27/index.php?JigyosyoCd=27B5000018-00&ServiceCd=550&action_kouhyou_detail_feature_index=true",
       "waiting_source_url": "",
       "official_homepage": "",
-      "checked_at_jst": "",
-      "feature_http_status": null,
-      "detail_http_status": null,
-      "status": "pending",
+      "checked_at_jst": "2026-09-30T22:02:33+09:00",
+      "feature_http_status": 200,
+      "detail_http_status": 200,
+      "status": "ok",
       "error": "",
-      "feature_url": "",
-      "detail_url": ""
+      "feature_url": "https://www.kaigokensaku.mhlw.go.jp/27/index.php?JigyosyoCd=27B5000018-00&ServiceCd=550&action_kouhyou_detail_feature_index=true",
+      "detail_url": "https://www.kaigokensaku.mhlw.go.jp/27/index.php?JigyosyoCd=27B5000018-00&ServiceCd=550&action_kouhyou_detail_034_kihon=true"
     }
   ]
 }
