@@ -1,18 +1,17 @@
 name: Osaka 851 official vacancy waiting update
 
 on:
-  # When this workflow file is replaced after the first-run interruption,
-  # resume automatically from No.601. Scheduled runs always refresh all 851.
   push:
     branches: [main]
     paths:
+      - 'update_osaka_851.py'
       - '.github/workflows/update_osaka_851.yml'
   workflow_dispatch:
     inputs:
-      start:
-        description: 'Start facility number (1-851)'
+      only_unavailable:
+        description: '取得不可だけ再確認する場合は true。全851件なら false'
         required: false
-        default: '1'
+        default: 'true'
   schedule:
     # 04:00 JST every day = 19:00 UTC on the previous day
     - cron: '0 19 * * *'
@@ -58,19 +57,14 @@ jobs:
 
           TOTAL=851
           BATCH=50
+          ONLY_FLAG=""
 
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            FIRST=1
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            FIRST="${{ inputs.start }}"
-          else
-            # This replacement commit resumes the interrupted first run.
-            FIRST=601
-          fi
-
-          if ! [[ "$FIRST" =~ ^[0-9]+$ ]] || [ "$FIRST" -lt 1 ] || [ "$FIRST" -gt "$TOTAL" ]; then
-            echo "Invalid start value: $FIRST"
-            exit 1
+          # A code/workflow replacement rechecks only the currently 取得不可 records.
+          # Daily 04:00 runs continue to refresh all 851 facilities.
+          if [ "${{ github.event_name }}" = "push" ]; then
+            ONLY_FLAG="--only-unavailable"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.only_unavailable }}" = "true" ]; then
+            ONLY_FLAG="--only-unavailable"
           fi
 
           push_with_retry() {
@@ -80,7 +74,6 @@ jobs:
               if git push origin main; then
                 return 0
               fi
-
               echo "Push failed. Refreshing remote state before retry..."
               git pull --rebase origin main || {
                 echo "git pull --rebase failed"
@@ -89,23 +82,22 @@ jobs:
               }
               sleep $((attempt * 10))
             done
-
             echo "git push failed after 5 attempts"
             return 1
           }
 
-          for START in $(seq "$FIRST" $BATCH $TOTAL); do
+          for START in $(seq 1 $BATCH $TOTAL); do
             END=$((START + BATCH - 1))
             if [ "$END" -gt "$TOTAL" ]; then END=$TOTAL; fi
 
-            echo "===== Osaka ${START}-${END} / ${TOTAL} ====="
-            python update_osaka_851.py --start "$START" --count "$BATCH"
+            echo "===== Osaka ${START}-${END} / ${TOTAL} ${ONLY_FLAG} ====="
+            python update_osaka_851.py --start "$START" --count "$BATCH" $ONLY_FLAG
 
             git add docs/osaka_851_latest.json docs/osaka_851_latest.csv \
                     docs/osaka_851_classification.json docs/osaka_851_classification.csv
 
             if ! git diff --cached --quiet; then
-              git commit -m "Update Osaka official data ${START}-${END}"
+              git commit -m "Recheck Osaka official data ${START}-${END}"
               push_with_retry
             fi
           done
