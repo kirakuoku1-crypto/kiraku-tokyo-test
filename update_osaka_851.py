@@ -359,11 +359,33 @@ def parse_feature(text: str) -> Tuple[Optional[int], Optional[int], str, str, bo
 def parse_detail(text: str) -> Tuple[Optional[int], Optional[int]]:
     wait = None
     cap = None
-    # Match only a numeric value immediately associated with the waiting-count label.
-    # This prevents a blank waiting field from accidentally consuming a later capacity value.
-    m = re.search(r"待機者数(?:（[^）]*）)?[\s:：]{0,40}(\d+)\s*人", text)
-    if m:
-        wait = int(m.group(1))
+
+    # html_to_text() normalizes NFKC, so Japanese full-width parentheses become
+    # ASCII parentheses. MHLW rows often look like either:
+    #   待機者数(入所希望者で入所していない者の数) 5人
+    # or:
+    #   待機者数 ... あり (その人数: 5人)
+    # First prefer a value on the same rendered table row. This avoids consuming
+    # an unrelated capacity/occupancy number from a later row.
+    for line in text.splitlines():
+        if "待機者数" not in line:
+            continue
+        tail = line.split("待機者数", 1)[1]
+        m = re.search(r"(\d+)\s*人", tail)
+        if m:
+            wait = int(m.group(1))
+            break
+
+    # Some MHLW layouts insert a line break inside the waiting-count row. In
+    # those cases only accept a number after the explicit 'その人数' cue.
+    if wait is None:
+        pos = text.find("待機者数")
+        if pos >= 0:
+            chunk = text[pos:pos + 700]
+            m = re.search(r"その人数[^0-9\n]{0,180}?(\d+)\s*人", chunk)
+            if m:
+                wait = int(m.group(1))
+
     m2 = re.search(r"入所定員[^0-9\n]{0,160}?(\d+)\s*人", text)
     if m2:
         cap = int(m2.group(1))
@@ -642,6 +664,11 @@ def main() -> int:
     parser.add_argument("--start", type=int, default=1, help="1-based first facility number in seed order")
     parser.add_argument("--count", type=int, default=851, help="Number of facilities to update")
     parser.add_argument("--limit", type=int, default=0, help="Deprecated testing alias for --count")
+    parser.add_argument(
+        "--only-unavailable",
+        action="store_true",
+        help="Recheck only facilities currently classified as 取得不可; preserves existing vacancy results",
+    )
     args = parser.parse_args()
 
     all_facilities = load_seed()
@@ -677,6 +704,14 @@ def main() -> int:
                 "checked_at_jst": "", "feature_http_status": None, "detail_http_status": None,
                 "status": "pending", "error": "", "feature_url": "", "detail_url": "",
             }
+
+    if args.only_unavailable:
+        before = len(selected)
+        selected = [
+            f for f in selected
+            if str(existing.get(int(f["no"]), {}).get("classification") or "") == "取得不可"
+        ]
+        print(f"Only-unavailable mode: {before} in range -> {len(selected)} facilities to recheck")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
