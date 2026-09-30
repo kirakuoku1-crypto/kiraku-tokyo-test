@@ -3,7 +3,7 @@
 """Kiraku Osaka 851 official vacancy/waiting updater.
 
 Sources (priority):
-  1) MHLW Kaigo Service Information Publication System (official/public)
+  1) MHLW Kaigo Service Information Publication System (official/public; feature + kani overview + kihon detail)
   2) Facility-owned official website linked from MHLW detail page or seed
 
 Classification:
@@ -62,6 +62,15 @@ DETAIL_ACTION = {
     "520": "action_kouhyou_detail_027_kihon",
     "540": "action_kouhyou_detail_026_kihon",
     "550": "action_kouhyou_detail_034_kihon",
+}
+WAIT_ACTION = {
+    # MHLW simplified overview pages expose the numeric 待機者数 reliably.
+    # The detailed kihon pages are still fetched separately for homepage links
+    # and other official metadata.
+    "510": "action_kouhyou_detail_024_kani",
+    "520": "action_kouhyou_detail_027_kani",
+    "540": "action_kouhyou_detail_026_kani",
+    "550": "action_kouhyou_detail_034_kani",
 }
 
 OUTPUT_FIELDS = [
@@ -386,9 +395,16 @@ def parse_detail(text: str) -> Tuple[Optional[int], Optional[int]]:
             if m:
                 wait = int(m.group(1))
 
-    m2 = re.search(r"入所定員[^0-9\n]{0,160}?(\d+)\s*人", text)
-    if m2:
-        cap = int(m2.group(1))
+    # Capacity must come from the actual 入所定員 row, not from explanatory
+    # text inside the 待機者数 label (which also contains the words 入所定員).
+    for line in text.splitlines():
+        if not re.match(r"^\s*入所定員", line):
+            continue
+        tail = line.split("入所定員", 1)[1]
+        m2 = re.search(r"(\d+)\s*人", tail)
+        if m2:
+            cap = int(m2.group(1))
+            break
     return wait, cap
 
 
@@ -527,6 +543,7 @@ def update_one(page, seed: Dict[str, str], candidates_by_service: Dict[str, List
     code, method, score, matched = match_facility(seed, candidates_by_service.get(service, []))
     feature_url = make_url(code, service, "action_kouhyou_detail_feature_index") if code else ""
     detail_url = make_url(code, service, DETAIL_ACTION.get(service, "action_kouhyou_detail_024_kihon")) if code else ""
+    waiting_url = make_url(code, service, WAIT_ACTION.get(service, "action_kouhyou_detail_024_kani")) if code else ""
 
     result: Dict[str, object] = {
         "no": no, "facility": seed["facility"], "type": seed["type"], "address": seed["address"],
@@ -546,12 +563,15 @@ def update_one(page, seed: Dict[str, str], candidates_by_service: Dict[str, List
     errors = []
     f_status, f_html, f_err = fetch_mhlw_page(page, feature_url)
     d_status, d_html, d_err = fetch_mhlw_page(page, detail_url)
+    w_status, w_html, w_err = fetch_mhlw_page(page, waiting_url)
     result["feature_http_status"] = f_status
     result["detail_http_status"] = d_status
     if f_err:
         errors.append("feature:" + f_err)
     if d_err:
         errors.append("detail:" + d_err)
+    if w_err:
+        errors.append("waiting:" + w_err)
 
     vacancy = None
     capacity_feature = None
@@ -564,11 +584,22 @@ def update_one(page, seed: Dict[str, str], candidates_by_service: Dict[str, List
 
     waiting = None
     capacity_detail = None
-    if d_html:
-        waiting, capacity_detail = parse_detail(html_to_text(d_html))
-        result["waiting_count"] = waiting
+    # Waiting counts are published most consistently on the MHLW simplified
+    # overview (kani) page. Fall back to the detailed kihon page if needed.
+    if w_html:
+        waiting, cap_wait = parse_detail(html_to_text(w_html))
+        if cap_wait is not None:
+            capacity_detail = cap_wait
         if waiting is not None:
+            result["waiting_source_url"] = waiting_url
+    if d_html:
+        waiting_detail, cap_detail = parse_detail(html_to_text(d_html))
+        if capacity_detail is None and cap_detail is not None:
+            capacity_detail = cap_detail
+        if waiting is None and waiting_detail is not None:
+            waiting = waiting_detail
             result["waiting_source_url"] = detail_url
+    result["waiting_count"] = waiting
     result["capacity"] = capacity_detail or capacity_feature
 
     # Reject 0/0 and other impossible feature capacity values when detail shows a real facility capacity.
@@ -602,7 +633,7 @@ def update_one(page, seed: Dict[str, str], candidates_by_service: Dict[str, List
         elif waiting is not None:
             result["classification"] = "待機人数のみ取得可能"
 
-    if f_status == 200 or d_status == 200:
+    if f_status == 200 or d_status == 200 or w_status == 200:
         result["status"] = "ok"
     else:
         result["status"] = "http_error"
