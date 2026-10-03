@@ -48,17 +48,51 @@ jobs:
           TOTAL=822
           BATCH=50
 
+          push_with_retry() {
+            local attempt
+
+            for attempt in 1 2 3 4 5; do
+              echo "git push attempt ${attempt}/5"
+
+              if git push origin main; then
+                return 0
+              fi
+
+              echo "Push failed. Refreshing remote state before retry..."
+
+              git pull --rebase origin main || {
+                echo "git pull --rebase failed"
+                git rebase --abort || true
+                return 1
+              }
+
+              sleep $((attempt * 10))
+            done
+
+            echo "git push failed after 5 attempts"
+            return 1
+          }
+
           for START in $(seq 1 $BATCH $TOTAL); do
             END=$((START + BATCH - 1))
-            if [ "$END" -gt "$TOTAL" ]; then END=$TOTAL; fi
+
+            if [ "$END" -gt "$TOTAL" ]; then
+              END=$TOTAL
+            fi
 
             echo "===== Updating ${START}-${END} / ${TOTAL} ====="
-            python update_tokyo_822.py --start "$START" --count "$BATCH"
 
-            git add docs/tokyo_822_latest.json docs/tokyo_822_latest.csv
+            python update_tokyo_822.py \
+              --start "$START" \
+              --count "$BATCH"
+
+            git add \
+              docs/tokyo_822_latest.json \
+              docs/tokyo_822_latest.csv
+
             if ! git diff --cached --quiet; then
               git commit -m "Update Tokyo official data ${START}-${END}"
-              git push
+              push_with_retry
             fi
           done
 
