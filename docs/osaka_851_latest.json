@@ -7,7 +7,7 @@
     "取得不可": "確認した公式・公的サイトから空床・待機人数のいずれも機械取得できない"
   },
   "total_facilities": 851,
-  "generated_at_jst": "2026-10-05T12:22:37+09:00",
+  "generated_at_jst": "2026-10-05T12:22:39+09:00",
   "mhlw_open_data_urls": {
     "510": "https://www.mhlw.go.jp/content/12300000/jigyosho_510_all_20260709180754.csv",
     "520": "https://www.mhlw.go.jp/content/12300000/jigyosho_520_all_20260709180802.csv",
