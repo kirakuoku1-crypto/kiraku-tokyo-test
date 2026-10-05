@@ -3,8 +3,8 @@ name: Saitama 635 official vacancy waiting update
 on:
   workflow_dispatch:
   schedule:
-    # 05:30 JST every day = 20:30 UTC on the previous day
-    - cron: "30 20 * * *"
+    # 06:15 JST every day = 21:15 UTC on the previous day
+    - cron: "15 21 * * *"
 
 permissions:
   contents: write
