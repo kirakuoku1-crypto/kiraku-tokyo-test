@@ -1,0 +1,98 @@
+name: Kanagawa 649 official vacancy waiting update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'update_kanagawa_649.py'
+      - 'kanagawa_649_facilities.csv'
+      - '.github/workflows/kanagawa.yaml'
+  workflow_dispatch:
+  schedule:
+    # 07:00 JST every day = 22:00 UTC on the previous day
+    - cron: "0 22 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kanagawa-649-official-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Update all 649 facilities in 50-facility checkpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          TOTAL=649
+          BATCH=50
+
+          push_with_retry() {
+            local attempt
+            for attempt in 1 2 3 4 5; do
+              echo "git push attempt ${attempt}/5"
+              if git push origin main; then
+                return 0
+              fi
+              echo "Push failed. Refreshing remote state before retry..."
+              git pull --rebase origin main || {
+                git rebase --abort || true
+                return 1
+              }
+              sleep $((attempt * 10))
+            done
+            echo "git push failed after 5 attempts"
+            return 1
+          }
+
+          for START in $(seq 1 $BATCH $TOTAL); do
+            END=$((START + BATCH - 1))
+            if [ "$END" -gt "$TOTAL" ]; then END=$TOTAL; fi
+
+            echo "===== Kanagawa ${START}-${END} / ${TOTAL} ====="
+            python update_kanagawa_649.py --start "$START" --count "$BATCH"
+
+            git add docs/kanagawa_649_latest.json docs/kanagawa_649_latest.csv
+            if ! git diff --cached --quiet; then
+              git commit -m "Update Kanagawa official data ${START}-${END}"
+              push_with_retry
+            fi
+          done
+
+      - name: Upload latest result artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kanagawa-649-latest
+          path: |
+            docs/kanagawa_649_latest.json
+            docs/kanagawa_649_latest.csv
+          if-no-files-found: warn
+          retention-days: 30
