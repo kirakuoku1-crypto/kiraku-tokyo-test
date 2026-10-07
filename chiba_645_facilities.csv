@@ -1,0 +1,646 @@
+﻿no,id,facility,type,jigyosyo_cd,service_cd,official_url
+1,cs00001,地域密着型特別養護老人ホーム 茶ノ木台くらぶ,特養,1298600030,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1298600030-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+2,cs00002,特別養護老人ホーム シルバーガーデン,特養,1277500037,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277500037-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+3,cs00003,特別養護老人ホームいすみ苑,特養,1277300065,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277300065-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+4,cs00004,特別養護老人ホームいすみ苑弐号館,特養,1278600331,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278600331-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+5,cs00005,特別養護老人ホーム愛恵苑,特養,1277600092,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277600092-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+6,cs00006,社会福祉法人林声会特別養護老人ホームゆかり岬,特養,1278600448,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278600448-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+7,cs00007,特別養護老人ホーム一宮喜楽園,特養,1276600259 / 1276600242,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276600259-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+8,cs00008,特別養護老人ホーム一宮苑,特養,1276600051,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276600051-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+9,cs00009,特別養護老人ホーム九十九里園,特養,1275900031,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275900031-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+10,cs00010,介護老人福祉施設志津ユーカリ苑,特養,1271700245 / 1271702134,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271700245-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+11,cs00011,千年希望の杜佐倉,特養,1291700191,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291700191-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+12,cs00012,特別養護老人ホーム さくら苑,特養,1271700229,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271700229-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+13,cs00013,特別養護老人ホーム ゆたか苑,特養,1271700542,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271700542-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+14,cs00014,特別養護老人ホームさくらの丘,特養,1271702092,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271702092-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+15,cs00015,特別養護老人ホームちとせ小町,特養,1271701698,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271701698-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+16,cs00016,特別養護老人ホームときわの杜,特養,1271701649,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271701649-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+17,cs00017,特別養護老人ホームはちす苑,特養,1271700252,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271700252-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+18,cs00018,特別養護老人ホームユーカリゆうとの杜,特養,1271702951,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271702951-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+19,cs00019,特別養護老人ホーム佐倉白翠園,特養,1271702027 / 1271700237,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271702027-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+20,cs00020,特別養護老人ホーム弥富あさくら,特養,1271701482,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271701482-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+21,cs00021,地域密着型特別養護老人ホームひばりの郷,特養,1292600093,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292600093-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+22,cs00022,特別養護老人ホーム はなみずき,特養,1272600212 / 1272602143,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272600212-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+23,cs00023,特別養護老人ホーム むらかみの郷,特養,1292600416,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292600416-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+24,cs00024,特別養護老人ホーム グリーンヒル八千代台,特養,1292600044,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292600044-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+25,cs00025,特別養護老人ホーム 八千代城,特養,1272602085 / 1272600303,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272602085-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+26,cs00026,特別養護老人ホームほうゆうの里,特養,1272601806 / 1272602986,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272601806-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+27,cs00027,特別養護老人ホームカーサ・八千代,特養,1272603729,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272603729-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+28,cs00028,特別養護老人ホームグリーンヒル,特養,1272600287,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272600287-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+29,cs00029,特別養護老人ホーム愛生苑,特養,1272600295,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272600295-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+30,cs00030,特別養護老人ホーム緑が丘美香苑(従来型),特養,1272603596 / 1272603604,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272603596-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+31,cs00031,特別養護老人ホーム美香苑,特養,1272600022,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272600022-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+32,cs00032,特別養護老人ホームひだまりの里,特養,1273501401,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273501401-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+33,cs00033,特別養護老人ホームゆかり八街西林,特養,1273501211,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273501211-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+34,cs00034,特別養護老人ホームコート・エミナース,特養,1273500130 / 1273501070,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273500130-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+35,cs00035,特別養護老人ホームハーモニー,特養,1273501336,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273501336-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+36,cs00036,特別養護老人ホーム空(従来型),特養,1273500965 / 1273500957,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273500965-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+37,cs00037,生活クラブ風の村特養ホーム八街,特養,1273500148,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273500148-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+38,cs00038,特別養護老人ホーム 勝浦裕和園,特養,1272300078,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272300078-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+39,cs00039,特別養護老人ホームオーシャンビュー勝浦(従来型),特養,1272300409 / 1272300342,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272300409-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+40,cs00040,特別養護老人ホーム名木緑風苑,特養,1272300268 / 1272300276,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272300268-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+41,cs00041,九十九里ホーム飯倉駅前特別養護老人ホームシオン,特養,1278700297 / 1278700289,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278700297-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+42,cs00042,特別養護老人ホームユニットケア松丘園,特養,1278700248,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278700248-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+43,cs00043,特別養護老人ホーム太陽の家,特養,1278700412,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278700412-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+44,cs00044,特別養護老人ホーム松丘園,特養,1271900118,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271900118-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+45,cs00045,特別養護老人ホーム瑞穂園,特養,1298700046,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1298700046-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+46,cs00046,特別養護老人ホーム花園,特養,1275700068,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275700068-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+47,cs00047,介護老人福祉施設 ピアポート千壽苑,特養,1270101882,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270101882-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+48,cs00048,淑徳共生苑,特養,1270102195,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270102195-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+49,cs00049,特別養護老人ホーム 恵光園シャイニー中央,特養,1270105008,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270105008-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+50,cs00050,特別養護老人ホーム 星久喜白山荘,特養,1270102583,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270102583-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+51,cs00051,特別養護老人ホームあかいの郷,特養,1270101114,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270101114-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+52,cs00052,特別養護老人ホームかなめ一倫荘,特養,1270105529,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270105529-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+53,cs00053,特別養護老人ホームローゼンヴィラはま野,特養,1270100728,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270100728-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+54,cs00054,特別養護老人ホーム新千葉一倫荘,特養,1270103060,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270103060-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+55,cs00055,特別養護老人ホーム都苑,特養,1270100330,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270100330-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+56,cs00056,みやのぎ荘,特養,1290300142,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1290300142-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+57,cs00057,介護老人福祉施設 ハピネス稲毛,特養,1270302878,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270302878-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+58,cs00058,特別養護老人ホ-ム双樹苑,特養,1270300153,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270300153-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+59,cs00059,特別養護老人ホーム こぶしの里,特養,1270303041,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270303041-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+60,cs00060,特別養護老人ホーム とどろき一倫荘,特養,1270302621,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270302621-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+61,cs00061,特別養護老人ホーム ソレイユ千葉北,特養,1270300104 / 1270301987,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270300104-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+62,cs00062,特別養護老人ホーム プラタナス,特養,1270301391,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270301391-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+63,cs00063,特別養護老人ホームいなげ一倫荘,特養,1270302340,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270302340-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+64,cs00064,特別養護老人ホームちとせ稲毛,特養,1270302837,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270302837-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+65,cs00065,特別養護老人ホーム桃花苑,特養,1270302548,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270302548-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+66,cs00066,特別養護老人ホーム稲毛こひつじ園,特養,1270300914,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270300914-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+67,cs00067,特別養護老人ホーム フローラユーワ,特養,1270501396,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270501396-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+68,cs00068,特別養護老人ホーム ロイヤル千葉グリーンホーム,特養,1270501545,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270501545-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+69,cs00069,特別養護老人ホーム 緑苑,特養,1270501982,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270501982-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+70,cs00070,特別養護老人ホームけやき園,特養,1270500539,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270500539-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+71,cs00071,特別養護老人ホームときわ園,特養,1270500166 / 1270501727,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270500166-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+72,cs00072,特別養護老人ホームアーバンライフ・ネクステ,特養,1270502329,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270502329-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+73,cs00073,特別養護老人ホーム千寿苑,特養,1270500174,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270500174-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+74,cs00074,特別養護老人ホーム裕和園,特養,1270500182,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270500182-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+75,cs00075,特別養護老人ホーム誉田園,特養,1270500190,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270500190-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+76,cs00076,しょうじゅ美浜,特養,1270600875,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270600875-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+77,cs00077,コスタリゾン千壽苑,特養,1270601154,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270601154-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+78,cs00078,セイワ美浜介護老人福祉施設,特養,1270600321,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270600321-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+79,cs00079,特別養護老人ホームみはま苑,特養,1270600065,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270600065-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+80,cs00080,特別養護老人ホームアルマ美浜,特養,1270601014,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270601014-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+81,cs00081,きさらぎ荘,特養,1290200185,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1290200185-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+82,cs00082,介護老人福祉施設 花見の里,特養,1270200536,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270200536-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+83,cs00083,特別養護老人ホーム 桐花園,特養,1270200338,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270200338-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+84,cs00084,特別養護老人ホーム 横戸ガーデン,特養,1290200136,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1290200136-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+85,cs00085,特別養護老人ホームみ春野れんげの丘,特養,1270204082,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270204082-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+86,cs00086,特別養護老人ホームゆうゆう苑,特養,1270202458,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270202458-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+87,cs00087,特別養護老人ホーム一倫荘,特養,1270200130,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270200130-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+88,cs00088,特別養護老人ホーム晴山苑,特養,1270200163,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270200163-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+89,cs00089,特別養護老人ホーム花見川フェニックス,特養,1270203175,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270203175-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+90,cs00090,特別養護老人ホーム いずみ苑,特養,1270400474,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270400474-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+91,cs00091,特別養護老人ホーム サンライズビラ,特養,1270402660 / 1270400425,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270402660-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+92,cs00092,特別養護老人ホーム バウムあすみの丘,特養,1270403726,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270403726-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+93,cs00093,特別養護老人ホーム 小倉町いずみ苑,特養,1270401514,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270401514-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+94,cs00094,特別養護老人ホーム 恵光園,特養,1270402728 / 1270400466,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270402728-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+95,cs00095,特別養護老人ホーム 明心苑,特養,1270404294,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270404294-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+96,cs00096,特別養護老人ホーム 更科ホーム,特養,1270400409,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270400409-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+97,cs00097,特別養護老人ホーム 第2いずみ苑,特養,1270403015,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270403015-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+98,cs00098,特別養護老人ホーム 若葉いこいの里,特養,1270403932,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270403932-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+99,cs00099,特別養護老人ホーム 菜の花園,特養,1270400102 / 1270402710,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270400102-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+100,cs00100,特別養護老人ホームちば美香苑,特養,1270400458,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270400458-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+101,cs00101,特別養護老人ホームセイワ若松,特養,1270400441,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270400441-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+102,cs00102,特別養護老人ホーム中野園,特養,1270400433,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270400433-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+103,cs00103,特別養護老人ホーム和陽園,特養,1270403106 / 1270402744,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270403106-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+104,cs00104,特別養護老人ホーム御殿町,特養,1270404096 / 1270404104,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270404096-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+105,cs00105,特別養護老人ホーム昌晴園,特養,1270400417,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270400417-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+106,cs00106,特別養護老人ホーム清和園,特養,1270400094 / 1270402702,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270400094-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+107,cs00107,小規模特別養護老人ホーム「夕凪の郷」,特養,1298800143,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1298800143-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+108,cs00108,特別養護老人ホーム おもいやりの郷,特養,1278100027,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278100027-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+109,cs00109,特別養護老人ホーム リブ丸山,特養,1278300072,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278300072-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+110,cs00110,特別養護老人ホーム 千倉苑,特養,1278200124,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278200124-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+111,cs00111,特別養護老人ホーム「伏姫の郷」,特養,1277800072,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277800072-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+112,cs00112,特別養護老人ホームアイリスの里,特養,1277700033,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277700033-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+113,cs00113,特別養護老人ホーム三芳光陽園,特養,1278000060,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278000060-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+114,cs00114,特別養護老人ホーム花の里,特養,1278400054,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278400054-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+115,cs00115,介護老人福祉施設ハートヴィレッヂ,特養,1273600302,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273600302-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+116,cs00116,介護老人福祉施設ハートヴィレッヂII,特養,1273600625,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273600625-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+117,cs00117,特別養護老人ホーム サクラビア印西(従来型),特養,1273600963 / 1273600971,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273600963-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+118,cs00118,特別養護老人ホームみどり荘,特養,1273600146,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273600146-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+119,cs00119,特別養護老人ホームみどり荘ユニット型,特養,1273600914,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273600914-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+120,cs00120,特別養護老人ホームアマポーラ,特養,1293600167,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293600167-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+121,cs00121,特別養護老人ホームプレーゲ本埜,特養,1274300050,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274300050-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+122,cs00122,特別養護老人ホーム印旛晴山苑,特養,1274100088,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274100088-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+123,cs00123,特別養護老人ホーム印西,特養,1273600773,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273600773-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+124,cs00124,やすらぎの里・尾車,特養,1293000137,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293000137-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+125,cs00125,ユニット型特別養護老人ホームウィステリア八重原,特養,1273001279,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273001279-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+126,cs00126,特別養護老人ホーム 上総園,特養,1273000123 / 1273001014,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273000123-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+127,cs00127,特別養護老人ホームあんしん君津,特養,1293000087,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293000087-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+128,cs00128,特別養護老人ホームつばさ,特養,1293000046,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293000046-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+129,cs00129,特別養護老人ホーム夢の郷,特養,1273001295,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273001295-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+130,cs00130,特別養護老人ホーム山の手フラワーヒル,特養,1273000131 / 1273001261,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273000131-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+131,cs00131,まごころ館四街道,特養,1273300879 / 1273300861,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273300879-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+132,cs00132,地域密着型特別養護老人ホームリバーサイド,特養,1293300065,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293300065-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+133,cs00133,地域密着型特別養護老人ホーム赤かぶ園四街道,特養,1293300024,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293300024-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+134,cs00134,特別養護老人ホームあさひ園,特養,1273300093,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273300093-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+135,cs00135,特別養護老人ホームあすみの丘,特養,1273300101,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273300101-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+136,cs00136,特別養護老人ホームからたち,特養,1273301471,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273301471-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+137,cs00137,特別養護老人ホーム四街道苑,特養,1273301190,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273301190-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+138,cs00138,特別養護老人ホーム四街道陽光園,特養,1273301828,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273301828-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+139,cs00139,多古特別養護老人ホーム,特養,1275100012,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275100012-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+140,cs00140,特別養護老人ホーム大多喜城見苑(ユニット型個室),特養,1277200133,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277200133-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+141,cs00141,特別養護老人ホーム大多喜城見苑(従来型多床室),特養,1277200141,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277200141-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+142,cs00142,地域密着型特別養護老人ホーム杜の街,特養,1295800047,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1295800047-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+143,cs00143,特別養護老人ホームおおあみ緑の里,特養,1275800041,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275800041-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+144,cs00144,特別養護老人ホームなのはな(従来型),特養,1279200164 / 1279200156,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1279200164-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+145,cs00145,特別養護老人ホーム季美の森(従来型),特養,1279200370 / 1279200388,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1279200370-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+146,cs00146,特別養護老人ホーム杜の街,特養,1275800454,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275800454-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+147,cs00147,サテライト特養やまぶき苑,特養,1293100036,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293100036-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+148,cs00148,特別養護老人ホーム やまぶき苑,特養,1273100493,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273100493-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+149,cs00149,特別養護老人ホーム 望みの門富士見の里(ユニット型),特養,1273100832,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273100832-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+150,cs00150,特別養護老人ホームつつじ苑,特養,1273100154 / 1273100790,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273100154-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+151,cs00151,特別養護老人ホーム望みの門富士見の里(従来型多床室),特養,1273100816,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273100816-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+152,cs00152,特別養護老人ホーム望みの門紫苑荘,特養,1273100147,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273100147-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+153,cs00153,特別養護老人ホーム玄々堂亀田の郷,特養,1273101186,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273101186-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+154,cs00154,特別養護老人ホーム金谷の里,特養,1273100162,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273100162-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+155,cs00155,特別養護老人ホーム九十九荘,特養,1274000056,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274000056-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+156,cs00156,桔梗ケ丘シルバーホーム,特養,1276300033,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276300033-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+157,cs00157,特別養護老人ホーム北総長寿苑,特養,1276100052,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276100052-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+158,cs00158,特別養護老人ホーム成島苑(従来型),特養,1279000382 / 1279000390,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1279000382-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+159,cs00159,特別養護老人ホーム海,特養,1276200050,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276200050-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+160,cs00160,特別養護老人ホーム青松苑,特養,1276000021,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276000021-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+161,cs00161,地域密着型介護老人福祉施設 春,特養,1292400049,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292400049-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+162,cs00162,地域密着型特別養護老人ホーム おおまや,特養,1292400478,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292400478-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+163,cs00163,地域密着型特別養護老人ホーム ぬくもりの家惣社,特養,1292400270,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292400270-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+164,cs00164,地域密着型特別養護老人ホーム よろこび,特養,1292400320,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292400320-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+165,cs00165,特別養護老人ホーム しらつか,特養,1272404185,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272404185-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+166,cs00166,特別養護老人ホーム しらつかII,特養,1272404193,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272404193-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+167,cs00167,特別養護老人ホーム ふるさと苑,特養,1272400357,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272400357-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+168,cs00168,特別養護老人ホーム やまき,特養,1272404748,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272404748-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+169,cs00169,特別養護老人ホーム やまきII,特養,1272404755,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272404755-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+170,cs00170,特別養護老人ホーム グランモア和光苑,特養,1272400324,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272400324-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+171,cs00171,特別養護老人ホーム グリーンライフ・ネクステ,特養,1272403617,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272403617-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+172,cs00172,特別養護老人ホーム 市原園,特養,1272400068,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272400068-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+173,cs00173,特別養護老人ホーム 緑佑の郷 II,特養,1272402460,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272402460-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+174,cs00174,特別養護老人ホーム 緑祐の郷,特養,1272402452,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272402452-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+175,cs00175,特別養護老人ホーム 高滝神明の里,特養,1272400548,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272400548-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+176,cs00176,特別養護老人ホームあじさい苑,特養,1272400761 / 1272402668,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272400761-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+177,cs00177,特別養護老人ホームゆうしゅう園,特養,1272400183,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272400183-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+178,cs00178,特別養護老人ホームグリーンホーム,特養,1272403187,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272403187-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+179,cs00179,特別養護老人ホームトータス,特養,1272401603,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272401603-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+180,cs00180,特別養護老人ホームポプラの樹,特養,1292400502,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292400502-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+181,cs00181,特別養護老人ホーム清流園,特養,1272402635 / 1272400365,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272402635-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+182,cs00182,特別養護老人ホーム第二ふるさと苑里休,特養,1292400155,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292400155-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+183,cs00183,特別養護老人ホーム辰巳萬緑苑,特養,1272400274,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272400274-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+184,cs00184,特別養護老人ホーム青柳園,特養,1272400340,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272400340-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+185,cs00185,アフェクシオン市川,特養,1270806357,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270806357-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+186,cs00186,ナーシングホーム市川,特養,1270800038,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270800038-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+187,cs00187,特別養護老人ホーム レガーレ市川,特養,1270803404,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270803404-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+188,cs00188,特別養護老人ホーム 太陽と緑の家,特養,1270801473,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270801473-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+189,cs00189,特別養護老人ホーム 市川ひかり(従来型),特養,1270806019,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270806019-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+190,cs00190,特別養護老人ホーム 市川ヒルズ,特養,1270802224,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270802224-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+191,cs00191,特別養護老人ホーム 市川三愛,特養,1270805151,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270805151-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+192,cs00192,特別養護老人ホーム 広尾苑,特養,1270802729,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270802729-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+193,cs00193,特別養護老人ホーム 清山荘,特養,1270800202,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270800202-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+194,cs00194,特別養護老人ホーム 華つばき,特養,1270805888,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270805888-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+195,cs00195,特別養護老人ホーム 親愛の丘市川(従来型),特養,1270805342 / 1270805359,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270805342-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+196,cs00196,特別養護老人ホームいちかわ翔裕園,特養,1270803602,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270803602-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+197,cs00197,特別養護老人ホームなごみ,特養,1270805532,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270805532-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+198,cs00198,特別養護老人ホームやわらぎの郷,特養,1270801549,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270801549-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+199,cs00199,特別養護老人ホームサンライズ市川,特養,1270804279,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270804279-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+200,cs00200,特別養護老人ホームタムスさくらの杜市川,特養,1270805714,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270805714-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+201,cs00201,特別養護老人ホームホワイト市川,特養,1270800343,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270800343-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+202,cs00202,特別養護老人ホーム市川あさひ荘,特養,1270800350,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270800350-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+203,cs00203,特別養護老人ホーム市川ひかり(ユニット型),特養,1270805995,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270805995-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+204,cs00204,社会福祉法人親愛会 特別養護老人ホーム 桜楓親愛の丘,特養,1270806126,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270806126-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+205,cs00205,特別養護老人ホーム 外房,特養,1277400030,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277400030-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+206,cs00206,ユニット型介護老人福祉施設玲光苑なのはな館,特養,1271600957,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271600957-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+207,cs00207,国際医療福祉大学成田老年医療福祉センター 特別養護老人ホームオルタンシア(従来型),特養,1271602177 / 1271602185,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271602177-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+208,cs00208,特別養護老人ホーム まきの里(従来型),特養,1271601567 / 1271601575,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271601567-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+209,cs00209,特別養護老人ホームひだまりの杜(従来型),特養,1271602078 / 1271602086,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271602078-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+210,cs00210,特別養護老人ホーム名木の里,特養,1271600627,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271600627-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+211,cs00211,特別養護老人ホーム成田苑,特養,1271601104 / 1271600262,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271601104-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+212,cs00212,特別養護老人ホーム有楽苑,特養,1274700028 / 1271601088,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274700028-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+213,cs00213,特別養護老人ホーム杜の家なりた,特養,1271601609,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271601609-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+214,cs00214,特別養護老人ホーム玲光苑,特養,1271600072,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271600072-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+215,cs00215,特別養護老人ホーム蓬莱の杜(広域型),特養,1271600981 / 1271601724,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271600981-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+216,cs00216,特別養護老人ホーム長寿園,特養,1271600064,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271600064-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+217,cs00217,特別養護老人ホーム長寿園(地域密着型),特養,1291600151,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291600151-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+218,cs00218,特別養護老人ホーム けやきの里従来型,特養,1272701663 / 1272701671,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272701663-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+219,cs00219,特別養護老人ホームあおいの里・我孫子(従来型),特養,1272701390 / 1272701382,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272701390-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+220,cs00220,特別養護老人ホームおはら,特養,1292700174,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292700174-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+221,cs00221,特別養護老人ホームけやきの里あやめ館 従来型,特養,1272702133 / 1272702125,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272702133-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+222,cs00222,特別養護老人ホームつくし野荘,特養,1292700117,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292700117-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+223,cs00223,特別養護老人ホームアクイール,特養,1272701176 / 1272701184,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272701176-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+224,cs00224,特別養護老人ホームアコモード,特養,1272700145,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272700145-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+225,cs00225,特別養護老人ホーム久遠苑,特養,1272700210,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272700210-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+226,cs00226,特別養護老人ホーム和楽園,特養,1272700228,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272700228-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+227,cs00227,地域密着型介護老人福祉施設やすらぎ園きらめき,特養,1292000088,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292000088-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+228,cs00228,地域密着型介護老人福祉施設第二やすらぎ園,特養,1292000039,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292000039-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+229,cs00229,恵天堂特別養護老人ホーム,特養,1275400057,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275400057-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+230,cs00230,特別養護老人ホーム 心楽,特養,1272001049,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272001049-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+231,cs00231,特別養護老人ホーム 東風荘松里館,特養,1292000021,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292000021-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+232,cs00232,特別養護老人ホームやすらぎ園,特養,1272000090,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272000090-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+233,cs00233,特別養護老人ホームやすらぎ園 (ユニット型),特養,1272000637,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272000637-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+234,cs00234,特別養護老人ホーム東風荘,特養,1275500047,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275500047-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+235,cs00235,特別養護老人ホーム白寿園,特養,1275200028,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275200028-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+236,cs00236,地域密着型特別養護老人ホーム 矢那梅の香園,特養,1291100046,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291100046-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+237,cs00237,地域密着型特別養護老人ホームいわね潮の香園,特養,1291100103,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291100103-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+238,cs00238,地域密着型特別養護老人ホームさざなみ苑,特養,1291100038,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291100038-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+239,cs00239,地域密着型特別養護老人ホームさざなみ苑(ユニット型),特養,1291100236,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291100236-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+240,cs00240,地域密着型特別養護老人ホームハートケア八幡台館,特養,1291100244,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291100244-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+241,cs00241,特別養護老人ホーム 木更津南清苑,特養,1271100255,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271100255-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+242,cs00242,特別養護老人ホーム 矢那梅の香園,特養,1271101642,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271101642-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+243,cs00243,特別養護老人ホームかもめの森,特養,1271101832 / 1271101824,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271101832-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+244,cs00244,特別養護老人ホームさつき園,特養,1271100727,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271100727-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+245,cs00245,特別養護老人ホームさつき園,特養,1271102160,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271102160-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+246,cs00246,特別養護老人ホームしおかぜ,特養,1291100087,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291100087-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+247,cs00247,特別養護老人ホームしおかぜ南,特養,1271102772,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271102772-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+248,cs00248,特別養護老人ホーム中郷記念館多床室型,特養,1271100248 / 1271102087,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271100248-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+249,cs00249,特別養護老人ホーム木更津南清苑弐号館,特養,1271102095,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271102095-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+250,cs00250,特別養護老人ホーム波岡の家,特養,1271100230 / 1271102921,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271100230-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+251,cs00251,特別養護老人ホーム請西苑,特養,1291100079,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291100079-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+252,cs00252,特別養護老人ホームささがわ,特養,1275300208,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275300208-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+253,cs00253,特別養護老人ホーム竜神苑,特養,1295300022,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1295300022-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+254,cs00254,特別養護老人ホーム藹藹,特養,1275300042,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275300042-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+255,cs00255,介護老人福祉施設両総,特養,1271801076,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271801076-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+256,cs00256,特別養護老人ホームひまわり(従来型),特養,1271801522 / 1271801514,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271801522-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+257,cs00257,特別養護老人ホームゆりの木苑,特養,1271800086 / 1271801217,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271800086-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+258,cs00258,特別養護老人ホーム福岡福福の里,特養,1271801423,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271801423-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+259,cs00259,特別養護老人ホーム福福の里,特養,1271800961,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271800961-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+260,cs00260,特別養護老人ホーム芙蓉荘,特養,1271800185,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271800185-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+261,cs00261,地域密着型特別養護老人ホーム明尽苑,特養,1291200416,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291200416-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+262,cs00262,特別養護老人ホーム あすなろ,特養,1271204115,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271204115-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+263,cs00263,特別養護老人ホーム ひまわりの丘(従来型),特養,1271201053 / 1271207076,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271201053-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+264,cs00264,特別養護老人ホーム まんさくの里,特養,1271202432,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271202432-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+265,cs00265,特別養護老人ホーム アウル大金平(従来型),特養,1271208363 / 1271208371,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271208363-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+266,cs00266,特別養護老人ホーム セイワ松戸,特養,1271208041 / 1271208058,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271208041-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+267,cs00267,特別養護老人ホーム 南花園,特養,1271200568,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271200568-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+268,cs00268,特別養護老人ホーム 松峰苑,特養,1291200176,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291200176-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+269,cs00269,特別養護老人ホーム 緑風園,特養,1271200691,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271200691-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+270,cs00270,特別養護老人ホーム 陽光苑,特養,1271200733,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271200733-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+271,cs00271,特別養護老人ホームなでしこ(従来型),特養,1271205435 / 1271205443,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271205435-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+272,cs00272,特別養護老人ホームやわら木苑,特養,1271200725,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271200725-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+273,cs00273,特別養護老人ホームプレミア東松戸,特養,1271207803 / 1271207795,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271207803-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+274,cs00274,特別養護老人ホームマーシイヒル,特養,1271200717,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271200717-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+275,cs00275,特別養護老人ホームリバーサイド・ヴィラ,特養,1291200267,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291200267-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+276,cs00276,特別養護老人ホーム明尽苑,特養,1271202440,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271202440-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+277,cs00277,特別養護老人ホーム東松戸ヒルズ,特養,1271207530,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271207530-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+278,cs00278,特別養護老人ホーム東松戸ヒルズ(従来型),特養,1271207522,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271207522-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+279,cs00279,特別養護老人ホーム松寿園,特養,1271200709,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271200709-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+280,cs00280,特別養護老人ホーム松寿園アネックス,特養,1271205328,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271205328-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+281,cs00281,特別養護老人ホーム松戸愛光園,特養,1271201665,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271201665-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+282,cs00282,特別養護老人ホーム松戸陽だまり館,特養,1271205302,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271205302-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+283,cs00283,特別養護老人ホーム秋桜,特養,1271203166,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271203166-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+284,cs00284,特別養護老人ホーム第二南花園,特養,1271205658 / 1271205666,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271205658-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+285,cs00285,特別養護老人ホーム親愛の丘,特養,1271207019,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271207019-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+286,cs00286,社会福祉法人成未会 特別養護老人ホーム芙蓉園,特養,1290100203,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1290100203-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+287,cs00287,地域密着型特別養護老人ホームマザーズガーデン,特養,1292200423,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292200423-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+288,cs00288,地域密着型特別養護老人ホーム大津川八幡苑,特養,1292200340,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292200340-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+289,cs00289,小規模特別養護老人ホーム輝陽園,特養,1292200308,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292200308-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+290,cs00290,特別養護老人ホーム グリーンヴィラ,特養,1292200225,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292200225-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+291,cs00291,特別養護老人ホームあおいの里・柏,特養,1272205335,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272205335-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+292,cs00292,特別養護老人ホームかしわ安心館,特養,1272205186,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272205186-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+293,cs00293,特別養護老人ホームひかり隣保館,特養,1272200542,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272200542-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+294,cs00294,特別養護老人ホームアネシス,特養,1273800043,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273800043-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+295,cs00295,特別養護老人ホームハートかしわ,特養,1272201169,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272201169-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+296,cs00296,特別養護老人ホームマザーズガーデン,特養,1272201516,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272201516-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+297,cs00297,特別養護老人ホームマーガレットヒル,特養,1272200997,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272200997-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+298,cs00298,特別養護老人ホーム八幡苑,特養,1272200526,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272200526-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+299,cs00299,特別養護老人ホーム八幡苑然然(従来型),特養,1272207505 / 1272207471,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272207505-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+300,cs00300,特別養護老人ホーム四季の里(従来型),特養,1272200567 / 1272204825,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272200567-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+301,cs00301,特別養護老人ホーム新柏ヴィヴァンホーム,特養,1272202415,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272202415-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+302,cs00302,特別養護老人ホーム望陽荘,特養,1272200377,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272200377-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+303,cs00303,特別養護老人ホーム柏きらりの風,特養,1272201755,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272201755-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+304,cs00304,特別養護老人ホーム柏こひつじ園,特養,1272203587,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272203587-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+305,cs00305,特別養護老人ホーム柏陽光園(従来型),特養,1272207976 / 1272207984,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272207976-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+306,cs00306,特別養護老人ホーム沼南の里,特養,1292200381,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292200381-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+307,cs00307,特別養護老人ホーム沼風苑,特養,1273800076,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273800076-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+308,cs00308,特別養護老人ホーム沼風苑新館,特養,1272204791,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272204791-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+309,cs00309,特別養護老人ホーム温雅荘(従来型),特養,1272207828 / 1272207810,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272207828-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+310,cs00310,特別養護老人ホーム藤心八幡苑,特養,1272200534,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272200534-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+311,cs00311,特別養護老人ホーム藤心八幡苑ユニット館,特養,1292200290,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292200290-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+312,cs00312,特別養護老人ホーム輝陽園,特養,1272200559,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272200559-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+313,cs00313,特別養護老人ホーム栄白翠園,特養,1274400066,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274400066-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+314,cs00314,従来型特別養護老人ホーム横芝光,特養,1279100299 / 1279100307,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1279100299-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+315,cs00315,特別養護老人ホーム吉祥苑,特養,1276400064,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276400064-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+316,cs00316,特別養護老人ホーム第二松丘園,特養,1275600045,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275600045-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+317,cs00317,特別養護老人ホーム第二松丘園,特養,1299100055,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1299100055-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+318,cs00318,高齢者福祉施設三愛(従来型),特養,1279100182 / 1279100174,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1279100182-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+319,cs00319,特別養護老人ホームあざみ苑,特養,1272500321,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272500321-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+320,cs00320,特別養護老人ホームでいご,特養,1272502434,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272502434-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+321,cs00321,特別養護老人ホームはまなす苑,特養,1272501022,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272501022-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+322,cs00322,特別養護老人ホームリバーパレス流山,特養,1272500313,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272500313-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+323,cs00323,特別養護老人ホーム太陽の里おおたかの森(従来型),特養,1272503044 / 1272503051,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272503044-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+324,cs00324,特別養護老人ホーム季の花,特養,1292500194,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292500194-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+325,cs00325,特別養護老人ホーム慶櫻美原の森(従来型),特養,1272502939 / 1272502913,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272502939-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+326,cs00326,特別養護老人ホーム春の苑,特養,1292500087,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292500087-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+327,cs00327,特別養護老人ホーム時の花,特養,1272503507,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272503507-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+328,cs00328,特別養護老人ホーム月の船,特養,1272501824,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272501824-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+329,cs00329,特別養護老人ホーム流山こまぎ安心館,特養,1272501543,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272501543-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+330,cs00330,特別養護老人ホーム流山こまぎ安心館II,特養,1272501535,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272501535-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+331,cs00331,特別養護老人ホーム美晴らしの里,特養,1272502228,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272502228-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+332,cs00332,特別養護老人ホーム花のいろ,特養,1272502681,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272502681-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+333,cs00333,うらやす和楽苑(従来型),特養,1273201085 / 1273201093,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273201085-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+334,cs00334,地域密着型特別養護老人ホーム清風荘うらやす,特養,1293200075,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293200075-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+335,cs00335,地域密着型特別養護老人ホーム清風荘舞浜,特養,1293200224,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293200224-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+336,cs00336,浦安市特別養護老人ホーム,特養,1273200129,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273200129-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+337,cs00337,浦安愛光園,特養,1273200681,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273200681-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+338,cs00338,特別養護老人ホーム わとなーる浦安,特養,1293200109,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293200109-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+339,cs00339,特別養護老人ホームしずか荘,特養,1293200091,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293200091-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+340,cs00340,特別養護老人ホーム さつきの里,特養,1274200680 / 1274200698,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274200680-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+341,cs00341,特別養護老人ホームアンスリール,特養,1274200557,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274200557-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+342,cs00342,特別養護老人ホームサクラビア,特養,1294200017,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1294200017-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+343,cs00343,特別養護老人ホーム菊華園,特養,1274200599 / 1274200086,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274200599-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+344,cs00344,特別養護老人ホーム はまひるがお,特養,1276900030,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276900030-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+345,cs00345,特別養護老人ホームはなゆう,特養,1296900028,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1296900028-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+346,cs00346,特別養護老人ホーム 睦沢園,特養,1276700026,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276700026-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+347,cs00347,特別養護老人ホームせせらぎ,特養,1276700133,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276700133-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+348,cs00348,特別養護老人ホームじょうもんの郷,特養,1274600038,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274600038-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+349,cs00349,ゆいまーる習志野介護老人福祉施設,特養,1272101443,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272101443-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+350,cs00350,ゆいまーる習志野介護老人福祉施設,特養,1292100086,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292100086-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+351,cs00351,セイワ習志野介護老人福祉施設,特養,1272100197,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272100197-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+352,cs00352,特別養護老人ホーム サンクレール谷津,特養,1272102078 / 1272102052,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272102078-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+353,cs00353,特別養護老人ホーム マイホーム習志野,特養,1272100684,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272100684-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+354,cs00354,特別養護老人ホームかがやきの郷福楽園(従来型),特養,1272102367 / 1272102375,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272102367-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+355,cs00355,特別養護老人ホーム玲光苑習志野ローズ館,特養,1272101831 / 1272101807,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272101831-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+356,cs00356,特別養護老人ホーム習志野偕生園,特養,1272100072 / 1272101732,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272100072-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+357,cs00357,介護老人福祉施設 ケアホーム船橋,特養,1270908617 / 1270908625,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270908617-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+358,cs00358,介護老人福祉施設船橋健恒会ケアセンター,特養,1270902131,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270902131-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+359,cs00359,特別養護法人ホームみやぎ台南生苑,特養,1270907080,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270907080-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+360,cs00360,特別養護老人ホーム さわやか苑,特養,1270900622,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270900622-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+361,cs00361,特別養護老人ホーム さわやか苑(ユニット型),特養,1270906835,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270906835-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+362,cs00362,特別養護老人ホーム プレーゲ船橋,特養,1270905324,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270905324-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+363,cs00363,特別養護老人ホーム 第2ワールドナーシングホーム,特養,1270900127,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270900127-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+364,cs00364,特別養護老人ホーム 習志野台みゆき苑,特養,1270902891,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270902891-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+365,cs00365,特別養護老人ホーム 船橋あさひ苑,特養,1270900614,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270900614-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+366,cs00366,特別養護老人ホーム 船橋グリーンてらす,特養,1270910076,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270910076-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+367,cs00367,特別養護老人ホーム 船橋梨香園,特養,1270900580,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270900580-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+368,cs00368,特別養護老人ホーム 船橋百寿苑,特養,1270900606,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270900606-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+369,cs00369,特別養護老人ホーム 船橋笑寿苑,特養,1290900552,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1290900552-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+370,cs00370,特別養護老人ホームさくら館,特養,1270903857,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270903857-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+371,cs00371,特別養護老人ホームたか音の杜,特養,1290900537,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1290900537-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+372,cs00372,特別養護老人ホームつぼい愛の郷,特養,1270905688,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270905688-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+373,cs00373,特別養護老人ホームひかりの郷,特養,1270903717,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270903717-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+374,cs00374,特別養護老人ホームふなばし翔裕園,特養,1270907544,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270907544-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+375,cs00375,特別養護老人ホームアグリ・ケアホームいこいの森,特養,1270907403,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270907403-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+376,cs00376,特別養護老人ホームオレンジガーデン,特養,1270901000,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270901000-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+377,cs00377,特別養護老人ホームタムスさくらの杜船橋,特養,1270909821,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270909821-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+378,cs00378,特別養護老人ホームノテ南船橋,特養,1270910670 / 1270910688,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270910670-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+379,cs00379,特別養護老人ホームノテ船橋,特養,1270909987 / 1270909995,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270909987-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+380,cs00380,特別養護老人ホームローゼンヴィラ藤原,特養,1270900457 / 1270906843,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270900457-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+381,cs00381,特別養護老人ホームワールドナーシングホーム,特養,1270900119,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270900119-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+382,cs00382,特別養護老人ホーム三咲館,特養,1290900438,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1290900438-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+383,cs00383,特別養護老人ホーム三山園,特養,1270910696,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270910696-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+384,cs00384,特別養護老人ホーム南三咲,特養,1270905662,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270905662-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+385,cs00385,特別養護老人ホーム南生苑,特養,1270900598,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270900598-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+386,cs00386,特別養護老人ホーム太陽と緑の家藤原,特養,1270909144 / 1270909151,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270909144-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+387,cs00387,特別養護老人ホーム船橋こひつじ園,特養,1270909755,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270909755-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+388,cs00388,特別養護老人ホーム船橋こひつじ園(ユニット型),特養,1270909680,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270909680-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+389,cs00389,特別養護老人ホーム船橋愛弘園,特養,1270907304,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270907304-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+390,cs00390,船橋健恒会ケアセンター南館,特養,1270907205,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270907205-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+391,cs00391,船橋市特別養護老人ホーム朋松苑,特養,1270905670,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270905670-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+392,cs00392,特別養護老人ホームおもとの郷芝山(従来型),特養,1276500137 / 1276500145,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276500137-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+393,cs00393,特別養護老人ホーム芝山苑,特養,1276500046 / 1276500079,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276500046-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+394,cs00394,地域密着型特別養護老人ホームしょうじゅの里茂原,特養,1291500203,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291500203-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+395,cs00395,特別養護老人ホーム あんしん,特養,1291500021,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291500021-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+396,cs00396,特別養護老人ホーム 長生苑,特養,1271500280,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271500280-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+397,cs00397,特別養護老人ホームあんしん東郷,特養,1291500138,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291500138-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+398,cs00398,特別養護老人ホーム光風荘,特養,1271500132,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271500132-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+399,cs00399,特別養護老人ホーム実恵園,特養,1271500207,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271500207-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+400,cs00400,特別養護老人ホーム真名実恵園,特養,1271500496,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271500496-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+401,cs00401,特別養護老人ホーム第二長生共楽園ひめはる,特養,1291500054,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291500054-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+402,cs00402,特別養護老人ホーム長生共楽園,特養,1271500066,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271500066-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+403,cs00403,地域密着型特別養護老人ホームあかつき,特養,1293400121,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293400121-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+404,cs00404,特別養護老人ホームみどりの丘,特養,1293400030,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293400030-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+405,cs00405,特別養護老人ホームみどりの樹,特養,1293400055,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293400055-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+406,cs00406,特別養護老人ホームサニーヒル,特養,1273400158 / 1273400745,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273400158-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+407,cs00407,特別養護老人ホーム和心苑,特養,1293400022,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1293400022-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+408,cs00408,特別養護老人ホーム蔵波,特養,1273400927 / 1273400943,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273400927-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+409,cs00409,特別養護老人ホーム袖ケ浦菜の花苑,特養,1273400166,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273400166-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+410,cs00410,袖ケ浦瑞穂特別養護老人ホーム,特養,1273400497,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273400497-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+411,cs00411,特別養護老人ホーム しすいの郷,特養,1273900413,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273900413-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+412,cs00412,特別養護老人ホームエコトピア酒々井,特養,1273900074,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273900074-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+413,cs00413,特別養護老人ホームエコトピア酒々井(ユニット型),特養,1273900264,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273900264-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+414,cs00414,ヴィラ・ほまれの家,特養,1291300125,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291300125-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+415,cs00415,特別養護老人ホームいきいきタウンのだ,特養,1271301978,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271301978-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+416,cs00416,特別養護老人ホームすばる,特養,1271300673,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271300673-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+417,cs00417,特別養護老人ホームふれあいの里,特養,1271302125,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271302125-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+418,cs00418,特別養護老人ホームほまれの家,特養,1271300483,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271300483-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+419,cs00419,特別養護老人ホーム松葉園,特養,1271301044,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271301044-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+420,cs00420,特別養護老人ホーム椿寿の里,特養,1271301606,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271301606-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+421,cs00421,特別養護老人ホーム福寿園,特養,1271300160,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271300160-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+422,cs00422,特別養護老人ホーム船形サルビア荘,特養,1271302042,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271302042-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+423,cs00423,特別養護老人ホーム野田市楽寿園,特養,1291300018,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1291300018-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+424,cs00424,特別養護老人ホーム関宿ナーシングビレッジ,特養,1273700045,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1273700045-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+425,cs00425,特別養護老人ホーム鶴寿園(ユニット型),特養,1271301861,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271301861-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+426,cs00426,特別養護老人ホーム鶴寿園(従来型),特養,1271300194,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271300194-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+427,cs00427,地域密着型特別養護老人ホームシオン銚子,特養,1290700127,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1290700127-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+428,cs00428,特別養護老人ホームさざんか園,特養,1270700139,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270700139-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+429,cs00429,特別養護老人ホームシオン銚子,特養,1270701012,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270701012-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+430,cs00430,特別養護老人ホーム松籟の丘,特養,1270700998 / 1270701053,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1270700998-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+431,cs00431,特別養護老人ホーム鋸南苑,特養,1277900070 / 1277900211,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277900070-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+432,cs00432,コミュニティホームくぬぎ山(ユニット型),特養,1272901412,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272901412-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+433,cs00433,コミュニティホームくぬぎ山(従来型),特養,1272901420,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272901420-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+434,cs00434,特別養護老人ホーム アウル鎌ケ谷,特養,1272902154,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272902154-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+435,cs00435,特別養護老人ホーム アウル鎌ケ谷ネクスト,特養,1272902436,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272902436-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+436,cs00436,特別養護老人ホーム 初富の里1,特養,1292900055,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292900055-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+437,cs00437,特別養護老人ホーム 初富の里2,特養,1272900927,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272900927-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+438,cs00438,特別養護老人ホーム 幸豊苑,特養,1272900539,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272900539-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+439,cs00439,特別養護老人ホーム 慈祐苑,特養,1272900075,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272900075-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+440,cs00440,特別養護老人ホーム 鎌ヶ谷翔裕園,特養,1272900158 / 1272900992,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272900158-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+441,cs00441,特別養護老人ホームあかり従来型,特養,1272901719 / 1272901768,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272901719-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+442,cs00442,特別養護老人ホームさつまの里,特養,1272901289,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272901289-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+443,cs00443,特別養護老人ホームなごみ三清荘(ユニット型),特養,1272902592,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272902592-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+444,cs00444,特別養護老人ホームなごみ三清荘(従来型),特養,1272902584,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272902584-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+445,cs00445,特別養護老人ホーム ザイクスヒル長南,特養,1277100036,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277100036-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+446,cs00446,特別養護老人ホーム 豊栄の里,特養,1277100218,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277100218-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+447,cs00447,特別養護老人ホームほしの郷・長南(ユニット型),特養,1277100275,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277100275-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+448,cs00448,特別養護老人ホームほしの郷・長南(従来型),特養,1277100267,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277100267-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+449,cs00449,特別養護老人ホーム ほしの郷,特養,1277000111,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277000111-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+450,cs00450,特別養護老人ホーム長柄園従来型,特養,1277000145 / 1277000152,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1277000145-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+451,cs00451,地域密着型特別養護老人ホームいこいの郷,特養,1296800012,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1296800012-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+452,cs00452,特別養護老人ホーム まきの木苑,特養,1276800099,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276800099-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+453,cs00453,特別養護老人ホーム長生き邑,特養,1276800198,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1276800198-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+454,cs00454,特別養護老人ホーム だん暖の郷,特養,1271000380,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271000380-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+455,cs00455,特別養護老人ホーム 微笑の里,特養,1271000851 / 1271000869,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271000851-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+456,cs00456,特別養護老人ホーム 館山明光苑,特養,1271001198,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271001198-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+457,cs00457,特別養護老人ホームポピー,特養,1271001156,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271001156-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+458,cs00458,館山特別養護老人ホーム,特養,1271000067,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271000067-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+459,cs00459,九十九里ホーム山田特別養護老人ホーム,特養,1274900081,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274900081-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+460,cs00460,地域密着型特別養護老人ホーム東総あやめ苑,特養,1298900075,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1298900075-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+461,cs00461,地域密着型特別養護老人ホーム水都苑,特養,1298900091,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1298900091-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+462,cs00462,特別養護老人ホーム かとりの郷福楽園(従来型),特養,1278900640 / 1278900632,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1278900640-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+463,cs00463,特別養護老人ホーム杜の家くりもと,特養,1275000048,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1275000048-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+464,cs00464,特別養護老人ホーム東総あやめ苑,特養,1271400127,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1271400127-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+465,cs00465,特別養護老人ホーム水都苑,特養,1274800059,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1274800059-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+466,cs00466,特別養護老人ホーム めぐみの里,特養,1272800150,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272800150-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+467,cs00467,特別養護老人ホームめぐみの里(ユニット型),特養,1292800065,540,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1292800065-00&ServiceCd=540&action_kouhyou_detail_feature_index=true
+468,cs00468,特別養護老人ホーム千の風・清澄,特養,1272800291,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272800291-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+469,cs00469,特別養護老人ホーム南小町,特養,1272800598 / 1272800606,510,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1272800598-00&ServiceCd=510&action_kouhyou_detail_feature_index=true
+470,cs00470,介護老人保健施設 エスポワール大原,老健,1254980033,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254980033-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+471,cs00471,介護老人保健施設エスポワール岬,老健,1253780020,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253780020-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+472,cs00472,介護老人保健施設シルバーハピネス,老健,1253780012,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253780012-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+473,cs00473,介護老人保健施設 佐倉ホワイエ,老健,1254280012,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254280012-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+474,cs00474,介護老人保健施設エスポワール佐倉,老健,1254280090,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254280090-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+475,cs00475,介護老人保健施設ユーカリ優都苑,老健,1254280046,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254280046-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+476,cs00476,介護老人保健施設葵の園・佐倉,老健,1254280079 / 1254280061,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254280079-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+477,cs00477,介護老人保健施設ばらの里,老健,1250480038,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250480038-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+478,cs00478,介護老人保健施設荒井記念ホーム,老健,1250480041,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250480041-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+479,cs00479,八千代ケアセンター,老健,1250480020,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250480020-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+480,cs00480,介護老人保健施設さんふらわ,老健,1254580015,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254580015-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+481,cs00481,介護老人保健施設 やすらぎの郷,老健,1253880010,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253880010-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+482,cs00482,介護老人保健施設 ミス・ヘンテ記念ケアセンター,老健,1251680016,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251680016-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+483,cs00483,匝瑳市介護老人保健施設そうさぬくもりの郷,老健,1251680024,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251680024-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+484,cs00484,介護老人保健施設 純恵の郷,老健,1250180257,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180257-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+485,cs00485,介護老人保健施設 葵の園・はまの,老健,1250180190,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180190-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+486,cs00486,千葉病院附属介護老人保健施設,老健,1250180109,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180109-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+487,cs00487,介護老人保健施設 みどりの家,老健,1250180067,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180067-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+488,cs00488,介護老人保健施設アーバンケアセンター,老健,1250180026,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180026-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+489,cs00489,介護老人保健施設ダンディライオン,老健,1250180175,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180175-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+490,cs00490,介護老人保健施設 葵の園・緑区,老健,1250180216,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180216-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+491,cs00491,介護老人保健施設おゆみの,老健,1250180158,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180158-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+492,cs00492,介護老人保健施設ケアセンター けやき園,老健,1250180141,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180141-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+493,cs00493,介護老人保健施設総和苑,老健,1250180117,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180117-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+494,cs00494,介護老人保健施設 葵の園・美浜,老健,1250180224,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180224-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+495,cs00495,介護老人保健施設 ほうゆう苑,老健,1250180133,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180133-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+496,cs00496,介護老人保健施設 ゆうあい苑,老健,1250180208,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180208-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+497,cs00497,介護老人保健施設 晴山苑,老健,1250180018,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180018-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+498,cs00498,介護老人保健施設ほうゆうの杜,老健,1250180232,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180232-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+499,cs00499,介護老人保健施設まくはりの郷,老健,1250180083,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180083-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+500,cs00500,いずみ苑 リハビリケアセンター,老健,1250180166,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180166-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+501,cs00501,介護老人保健施設 はつらつリハビリセンター,老健,1250180091,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250180091-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+502,cs00502,サテライト型小規模介護老人保健施設葵の園・岩井海岸,老健,1255180021,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1255180021-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+503,cs00503,介護老人保健施設晴耕苑,老健,1253580032,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253580032-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+504,cs00504,介護老人保健施設葵の園・南房総,老健,1255180013,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1255180013-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+505,cs00505,医療法人光洋会 介護老人保健施設光栄館,老健,1253580016,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253580016-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+506,cs00506,介護老人保健施設ヴィラ大森,老健,1254680013,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254680013-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+507,cs00507,介護老人保健施設メディケアー君津,老健,1251180025,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251180025-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+508,cs00508,介護老人保健施設 栗の郷,老健,1254480026,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254480026-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+509,cs00509,介護老人保健施設のぞみ,老健,1254480018,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254480018-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+510,cs00510,介護老人保健施設四街道徳洲苑,老健,1254480047,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254480047-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+511,cs00511,医療法人白百合会介護老人保健施設しらゆり,老健,1253780046,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253780046-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+512,cs00512,介護老人保健施設杜の街,老健,1250780031,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250780031-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+513,cs00513,介護老人保健施設わかくさ,老健,1251280023,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251280023-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+514,cs00514,介護老人保健施設ケアセンターさきくさ,老健,1251280015,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251280015-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+515,cs00515,介護老人保健施設 成田富里徳洲苑,老健,1254880019,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254880019-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+516,cs00516,介護老人保健施設龍岡ケアセンター,老健,1254180048,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254180048-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+517,cs00517,介護老人保健施設ハートビレッジ,老健,1250780023,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250780023-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+518,cs00518,介護老人保健施設日向の里,老健,1255380019,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1255380019-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+519,cs00519,介護老人保健施設松尾リハビリ苑,老健,1250780015,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250780015-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+520,cs00520,介護老人保健施設 しらつか,老健,1250680129,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680129-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+521,cs00521,介護老人保健施設 なんな苑,老健,1250680041,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680041-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+522,cs00522,介護老人保健施設 メディケア51,老健,1250680108,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680108-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+523,cs00523,介護老人保健施設 ユー・アイ久楽部,老健,1250680066,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680066-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+524,cs00524,介護老人保健施設アーネスト,老健,1250680082,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680082-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+525,cs00525,介護老人保健施設クレイン,老健,1250680111,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680111-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+526,cs00526,介護老人保健施設リハパークきくま,老健,1250680090,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680090-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+527,cs00527,介護老人保健施設杏の里,老健,1250680033,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680033-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+528,cs00528,介護老人保健施設梅香苑,老健,1250680074,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680074-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+529,cs00529,介護老人保健施設辰巳ナーシング・ヴィラ,老健,1250680025,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250680025-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+530,cs00530,介護老人保健施設 らいおんハート,老健,1252780125,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780125-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+531,cs00531,介護老人保健施設 エスポワール市川,老健,1252780088,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780088-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+532,cs00532,介護老人保健施設 サンシルバー市川,老健,1252780070,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780070-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+533,cs00533,介護老人保健施設 ハートケア市川,老健,1252780039,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780039-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+534,cs00534,介護老人保健施設 市川あさひ荘,老健,1252780096,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780096-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+535,cs00535,介護老人保健施設サンセール市川,老健,1252780112,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780112-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+536,cs00536,介護老人保健施設市川ゆうゆう,老健,1252780104,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780104-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+537,cs00537,介護老人保健施設葵の園・市川,老健,1252780054,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780054-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+538,cs00538,医療法人社団泰正会介護老人保健施設グレースケア市川,老健,1252780062,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252780062-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+539,cs00539,介護老人保健施設エスポワール成田,老健,1254380036,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254380036-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+540,cs00540,介護老人保健施設セントアンナナーシングホーム,老健,1254380028,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254380028-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+541,cs00541,介護老人保健施設百寿園,老健,1254380010,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254380010-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+542,cs00542,介護老人保健施設透光苑,老健,1253080025,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253080025-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+543,cs00543,国際医療福祉大学成田老年医療福祉センター介護老人保健施設オルタンシア,老健,1254380049,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254380049-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+544,cs00544,介護老人保健施設 我孫子ロイヤルケアセンター,老健,1252580017,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252580017-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+545,cs00545,介護老人保健施設 葵の園・我孫子,老健,1252580041,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252580041-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+546,cs00546,介護老人保健施設 葵の園・我孫子西,老健,1252580053,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252580053-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+547,cs00547,介護老人保健施設クレオ,老健,1252580033,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252580033-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+548,cs00548,介護老人保健施設 すこやかリハビリケアセンター,老健,1251480029,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251480029-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+549,cs00549,介護老人保健施設シルバーケアセンター,老健,1251480037,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251480037-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+550,cs00550,介護老人保健施設かもめメディカルケアセンター,老健,1251080043,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251080043-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+551,cs00551,介護老人保健施設ケアセンターきさらづ,老健,1251080019,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251080019-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+552,cs00552,介護老人保健施設メディケアーさざなみ,老健,1251080035,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251080035-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+553,cs00553,介護老人保健施設望星さつき苑,老健,1251080050,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251080050-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+554,cs00554,介護老人保健施設深深,老健,1253080017,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253080017-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+555,cs00555,介護老人保健施設 あさいケアセンター,老健,1250880013,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250880013-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+556,cs00556,介護老人保健施設 まつど徳洲苑,老健,1252480148,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480148-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+557,cs00557,介護老人保健施設 エスポワール松戸,老健,1252480093,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480093-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+558,cs00558,介護老人保健施設 偕楽園,老健,1252480036,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480036-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+559,cs00559,介護老人保健施設 千の星・松戸,老健,1252480051,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480051-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+560,cs00560,介護老人保健施設 葵の園・松戸,老健,1252480127,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480127-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+561,cs00561,介護老人保健施設 葵の園・松戸東,老健,1252480135,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480135-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+562,cs00562,介護老人保健施設島村洗心苑,老健,1252480119,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480119-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+563,cs00563,医療法人徳洲会 介護老人保健施設シルバーケア常盤平,老健,1252480163,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480163-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+564,cs00564,医療法人徳洲会介護老人保健施設シルバーケア松戸,老健,1252480155,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480155-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+565,cs00565,東京おりーぶ苑,老健,1252480077,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252480077-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+566,cs00566,介護老人保健施設 葵の園・柏たなか,老健,1252180081,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252180081-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+567,cs00567,介護老人保健施設さかき光陽,老健,1252180016,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252180016-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+568,cs00568,介護老人保健施設ケアホーム初石,老健,1252180073,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252180073-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+569,cs00569,介護老人保健施設北柏ナーシングケアセンター,老健,1252180032,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252180032-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+570,cs00570,介護老人保健施設回生の里,老健,1252180057,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252180057-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+571,cs00571,介護老人保健施設葵の園・柏,老健,1252180065,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252180065-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+572,cs00572,介護老人保健施設葵の園・沼南,老健,1252280022,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252280022-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+573,cs00573,介護老人保健施設蒼生の杜,老健,1252180040,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252180040-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+574,cs00574,柏市立介護老人保健施設はみんぐ,老健,1252180024,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252180024-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+575,cs00575,介護老人保健施設さかえケアセンター,老健,1254180030,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254180030-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+576,cs00576,介護老人保健施設ナーシングプラザ流山,老健,1252380012,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252380012-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+577,cs00577,介護老人保健施設ハートケア流山,老健,1252380020,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252380020-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+578,cs00578,介護老人保健施設浦安ベテルホーム,老健,1251980019,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251980019-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+579,cs00579,介護老人保健施設アモールケア白井,老健,1254780011,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254780011-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+580,cs00580,介護老人保健施設ケアホーム白井,老健,1254180022,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1254180022-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+581,cs00581,介護老人保健施設睦沢の里,老健,1253280021,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253280021-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+582,cs00582,医療法人社団愛友会サテライト型小規模介護老人保健施設あっとほーむ習志野,老健,1250280024,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250280024-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+583,cs00583,医療法人社団愛友会介護老人保健施設ケアセンター習志野,老健,1250280016,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250280016-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+584,cs00584,介護老人保健施設 はさま徳洲苑,老健,1250980073,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250980073-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+585,cs00585,介護老人保健施設 エスポワール船橋,老健,1250980057,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250980057-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+586,cs00586,介護老人保健施設 フェルマータ船橋,老健,1252880060,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880060-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+587,cs00587,介護老人保健施設 大穴さくら苑,老健,1252880086,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880086-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+588,cs00588,介護老人保健施設なつみの郷,老健,1250980040,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250980040-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+589,cs00589,介護老人保健施設ふなばし光陽,老健,1252880102,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880102-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+590,cs00590,介護老人保健施設やすらぎ,老健,1252880045,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880045-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+591,cs00591,介護老人保健施設オレンジガーデン・ケアセンター,老健,1252880110,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880110-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+592,cs00592,介護老人保健施設リハビリケア船橋,老健,1252880136,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880136-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+593,cs00593,介護老人保健施設ロータスケアセンター,老健,1252880078,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880078-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+594,cs00594,介護老人保健施設千葉徳洲苑,老健,1250980065,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250980065-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+595,cs00595,介護老人保健施設船橋うぐいす園,老健,1252880094,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880094-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+596,cs00596,介護老人保健施設船橋ケアセンター,老健,1252880037,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252880037-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+597,cs00597,介護老人保健施設二川苑,老健,1250780049,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250780049-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+598,cs00598,介護老人保健施設つくも苑,老健,1253180015,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253180015-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+599,cs00599,介護老人保健施設ケアセンターかずさ,老健,1253180023,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253180023-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+600,cs00600,介護老人保健施設カトレアンホーム,老健,1250980029,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250980029-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+601,cs00601,介護老人保健施設メディケアーやまゆり,老健,1250980011,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1250980011-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+602,cs00602,介護老人保健施設梅郷ナーシングセンター,老健,1252080018,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252080018-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+603,cs00603,介護老人保健施設葵の園・野田,老健,1252080034,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252080034-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+604,cs00604,介護老人保健施設野田ライフケアセンター,老健,1252080026,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252080026-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+605,cs00605,福聚苑老人保健施設,老健,1252280014,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252280014-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+606,cs00606,介護老人保健施設とよさと,老健,1251380039,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251380039-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+607,cs00607,介護老人保健施設なぎさ,老健,1251380021,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251380021-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+608,cs00608,介護老人保健施設慈風苑,老健,1251380013,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1251380013-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+609,cs00609,介護老人保健施設しんかま,老健,1252680044,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252680044-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+610,cs00610,介護老人保健施設シルバーケア鎌ヶ谷,老健,1252680036,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252680036-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+611,cs00611,介護老人保健施設長柄ケアセンター,老健,1253280013,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253280013-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+612,cs00612,サテライト型小規模介護老人保健施設 なのはな館なぎさ,老健,1253680055,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253680055-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+613,cs00613,介護老人保健施設たてやま,老健,1253680068,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253680068-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+614,cs00614,介護老人保健施設なのはな館みさき,老健,1253680014,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253680014-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+615,cs00615,医療法人南陽会介護老人保健施設みやぎの郷,老健,1253680030,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253680030-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+616,cs00616,館山ケアセンター夢くらぶ,老健,1253680022,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253680022-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+617,cs00617,介護老人保健施設 夢プラスワン,老健,1252980019,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1252980019-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+618,cs00618,介護老人保健施設おおくすの郷,老健,1253080041,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253080041-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+619,cs00619,介護老人保健施設おみがわ,老健,1253080033,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253080033-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+620,cs00620,たいよう,老健,1253980018,520,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=1253980018-00&ServiceCd=520&action_kouhyou_detail_feature_index=true
+621,cs00621,うらら介護医療院,介護医療院,12B0100034,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B0100034-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+622,cs00622,介護医療院なごみかん,介護医療院,12B0100026,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B0100026-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+623,cs00623,タムス介護医療院花見川,介護医療院,12B0100067,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B0100067-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+624,cs00624,平山病院附属花見川介護医療院,介護医療院,12B0100059,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B0100059-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+625,cs00625,介護医療院 秀眉園,介護医療院,12B0100042,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B0100042-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+626,cs00626,総泉病院介護医療院,介護医療院,12B0100018,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B0100018-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+627,cs00627,鈴木病院介護医療院,介護医療院,12B1100017,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B1100017-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+628,cs00628,国保多古中央病院 介護医療院,介護医療院,12B3000058,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B3000058-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+629,cs00629,介護医療院泉水ガーデンホーム,介護医療院,12B3700012,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B3700012-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+630,cs00630,医療法人友康会 行徳中央介護医療院,介護医療院,12B2700070,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B2700070-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+631,cs00631,介護医療院千年希望の杜成田,介護医療院,12B4300119,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B4300119-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+632,cs00632,聖マリア介護医療院,介護医療院,12B4300101,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B4300101-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+633,cs00633,介護医療院エスペーロ,介護医療院,12B2500017,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B2500017-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+634,cs00634,東庄町国民健康保険東庄病院 介護医療院,介護医療院,12B3000025,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B3000025-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+635,cs00635,介護医療院あきやまの郷,介護医療院,12B2400093,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B2400093-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+636,cs00636,医療法人社団博恵会介護医療院柏南,介護医療院,12B2100014,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B2100014-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+637,cs00637,介護医療院 みさきの郷,介護医療院,12B2800011,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B2800011-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+638,cs00638,髙根病院 介護医療院,介護医療院,12B0700049,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B0700049-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+639,cs00639,木野崎介護医療院,介護医療院,12B2000034,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B2000034-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+640,cs00640,医療法人社団一心会 初富保健病院介護医療院,介護医療院,12B2600015,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B2600015-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+641,cs00641,小林病院介護医療院,介護医療院,12B3600063,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B3600063-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+642,cs00642,医療法人三省会本多病院介護医療院,介護医療院,12B5200029,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B5200029-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+643,cs00643,エビハラ介護医療院,介護医療院,12B3900026,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B3900026-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+644,cs00644,小田介護医療院,介護医療院,12B3900034,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B3900034-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
+645,cs00645,東条病院介護医療院,介護医療院,12B3900083,550,https://www.kaigokensaku.mhlw.go.jp/12/index.php?JigyosyoCd=12B3900083-00&ServiceCd=550&action_kouhyou_detail_feature_index=true
