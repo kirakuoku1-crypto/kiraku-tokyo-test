@@ -4,18 +4,17 @@
   "source_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php",
   "total_facilities": 154,
   "batch_size": 50,
-  "generated_at_jst": "2026-10-09T02:38:20+09:00",
+  "generated_at_jst": "2026-10-09T02:38:33+09:00",
   "summary": {
     "records": 154,
     "vacancy_values": 33,
-    "waiting_values": 79,
+    "waiting_values": 83,
     "fresh_vacancy_candidates": null,
     "status_counts": {
-      "ok_partial_public_value": 72,
+      "ok_partial_public_value": 76,
       "skipped_no_official_url": 18,
       "ok_no_public_value": 40,
-      "ok": 20,
-      "not_checked": 4
+      "ok": 20
     }
   },
   "rules": {
@@ -3032,17 +3031,17 @@
       "jigyosyo_cd": "1950980001",
       "service_cd": "520",
       "vacancy": null,
-      "capacity": null,
-      "waiting_count": null,
-      "vacancy_date": "",
-      "public_value": "",
-      "checked_at_jst": "",
-      "feature_http_status": null,
-      "detail_http_status": null,
-      "status": "not_checked",
+      "capacity": 100,
+      "waiting_count": 0,
+      "vacancy_date": "2026-04-07",
+      "public_value": "0/0人",
+      "checked_at_jst": "2026-10-09T02:38:22+09:00",
+      "feature_http_status": 200,
+      "detail_http_status": 200,
+      "status": "ok_partial_public_value",
       "error": "",
       "feature_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php?JigyosyoCd=1950980001-00&ServiceCd=520&action_kouhyou_detail_feature_index=true",
-      "detail_url": ""
+      "detail_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php?JigyosyoCd=1950980001-00&ServiceCd=520&action_kouhyou_detail_024_kani=true"
     },
     {
       "no": 152,
@@ -3052,17 +3051,17 @@
       "jigyosyo_cd": "1970105142",
       "service_cd": "550",
       "vacancy": null,
-      "capacity": null,
-      "waiting_count": null,
+      "capacity": 172,
+      "waiting_count": 13,
       "vacancy_date": "",
-      "public_value": "",
-      "checked_at_jst": "",
-      "feature_http_status": null,
-      "detail_http_status": null,
-      "status": "not_checked",
+      "public_value": "0/0人",
+      "checked_at_jst": "2026-10-09T02:38:27+09:00",
+      "feature_http_status": 200,
+      "detail_http_status": 200,
+      "status": "ok_partial_public_value",
       "error": "",
       "feature_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php?JigyosyoCd=1970105142-00&ServiceCd=550&action_kouhyou_detail_feature_index=true",
-      "detail_url": ""
+      "detail_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php?JigyosyoCd=1970105142-00&ServiceCd=550&action_kouhyou_detail_024_kani=true"
     },
     {
       "no": 153,
@@ -3073,16 +3072,16 @@
       "service_cd": "550",
       "vacancy": null,
       "capacity": null,
-      "waiting_count": null,
-      "vacancy_date": "",
-      "public_value": "",
-      "checked_at_jst": "",
-      "feature_http_status": null,
-      "detail_http_status": null,
-      "status": "not_checked",
+      "waiting_count": 2,
+      "vacancy_date": "2025-07-22",
+      "public_value": "0/0人",
+      "checked_at_jst": "2026-10-09T02:38:29+09:00",
+      "feature_http_status": 200,
+      "detail_http_status": 200,
+      "status": "ok_partial_public_value",
       "error": "",
       "feature_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php?JigyosyoCd=1910114675-00&ServiceCd=550&action_kouhyou_detail_feature_index=true",
-      "detail_url": ""
+      "detail_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php?JigyosyoCd=1910114675-00&ServiceCd=550&action_kouhyou_detail_024_kani=true"
     },
     {
       "no": 154,
@@ -3092,17 +3091,17 @@
       "jigyosyo_cd": "1911110474",
       "service_cd": "550",
       "vacancy": null,
-      "capacity": null,
-      "waiting_count": null,
+      "capacity": 37,
+      "waiting_count": 3,
       "vacancy_date": "",
       "public_value": "",
-      "checked_at_jst": "",
-      "feature_http_status": null,
-      "detail_http_status": null,
-      "status": "not_checked",
+      "checked_at_jst": "2026-10-09T02:38:31+09:00",
+      "feature_http_status": 200,
+      "detail_http_status": 200,
+      "status": "ok_partial_public_value",
       "error": "",
       "feature_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php?JigyosyoCd=1911110474-00&ServiceCd=550&action_kouhyou_detail_feature_index=true",
-      "detail_url": ""
+      "detail_url": "https://www.kaigokensaku.mhlw.go.jp/19/index.php?JigyosyoCd=1911110474-00&ServiceCd=550&action_kouhyou_detail_024_kani=true"
     }
   ]
 }
