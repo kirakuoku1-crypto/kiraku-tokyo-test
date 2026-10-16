@@ -1,0 +1,483 @@
+name: Saitama 20 facilities screenshot pilot (read-only)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: saitama-2040-screenpilot-manual
+  cancel-in-progress: false
+
+jobs:
+  screenshot-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install browser
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'playwright>=1.53,<2'
+          python -m playwright install --with-deps chromium
+
+      - name: Screenshot 20 public facility pages without changing application data
+        shell: bash
+        run: |
+          mkdir -p pilot
+                    cat > pilot/targets_20.json <<'KIRAKU_TARGETS_END'
+          [
+            {
+              "id": "s00001",
+              "name": "志木シルバーハイツ第一・第二",
+              "region": "富士見市",
+              "address": "富士見市針ヶ谷1-16-9、針ヶ谷1-15-24",
+              "source": "保留（統合登録）",
+              "url": "",
+              "official_url": "https://tomikyu-silverheights.co.jp/",
+              "decision": "manual_only",
+              "note": "第一・第二が個別登録済みのため統合登録は自動判定しない"
+            },
+            {
+              "id": "s00238",
+              "name": "有料老人ホーム 志木シルバーハイツ第一",
+              "region": "富士見市",
+              "address": "埼玉県富士見市針ヶ谷1-16-9",
+              "source": "みんなの介護",
+              "url": "https://www.minnanokaigo.com/facility/010-1172900183/",
+              "official_url": "https://tomikyu-silverheights.co.jp/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00409",
+              "name": "有料老人ホーム 志木シルバーハイツ第二",
+              "region": "富士見市",
+              "address": "富士見市針ケ谷1-15-24",
+              "source": "みんなの介護",
+              "url": "https://www.minnanokaigo.com/facility/000-8659129701/",
+              "official_url": "https://tomikyu-silverheights.co.jp/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s_sako0002",
+              "name": "ル・レーヴふじみ野",
+              "region": "ふじみ野市",
+              "address": "埼玉県ふじみ野市新駒林一丁目4番16号",
+              "source": "みんなの介護",
+              "url": "https://www.minnanokaigo.com/facility/010-1173001288/",
+              "official_url": "https://www.ej-welfare.jp/facility/366/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00006",
+              "name": "ライフコミューン蕨",
+              "region": "蕨市",
+              "address": "蕨市北町2-6-12",
+              "source": "みんなの介護",
+              "url": "https://www.minnanokaigo.com/facility/010-1171400201/",
+              "official_url": "https://www.kinoshita-kaigo.co.jp/facility/care_home/life-commune_warabi.html",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00008",
+              "name": "カーサプラチナ草加",
+              "region": "草加市",
+              "address": "草加市西町285-1",
+              "source": "みんなの介護",
+              "url": "https://www.minnanokaigo.com/facility/010-1171800699/",
+              "official_url": "https://platinum-care.jp/souka/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00015",
+              "name": "サニーライフ戸田公園",
+              "region": "戸田市",
+              "address": "戸田市本町2-9-8",
+              "source": "みんなの介護",
+              "url": "https://www.minnanokaigo.com/facility/010-1171900630/",
+              "official_url": "https://www.sunnylife-group.co.jp/saitama/112241/todakouen",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00002",
+              "name": "ケアヴィレッジ美乃里",
+              "region": "新座市",
+              "address": "新座市東北2-6-26",
+              "source": "施設公式",
+              "url": "https://www.sykz.co.jp/shisetsu/160/",
+              "official_url": "https://www.sykz.co.jp/shisetsu/160/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s_sako0001",
+              "name": "和光ガーデン",
+              "region": "和光市",
+              "address": "埼玉県和光市白子1丁目29-15",
+              "source": "施設公式",
+              "url": "https://caregiver.co.jp/facility/21/",
+              "official_url": "https://caregiver.co.jp/facility/21/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00003",
+              "name": "らぽーる上尾",
+              "region": "上尾市",
+              "address": "上尾市地頭方422",
+              "source": "施設公式",
+              "url": "https://rapport-ageo.co.jp/",
+              "official_url": "https://rapport-ageo.co.jp/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s_sako0003",
+              "name": "ル・レーヴ新白岡",
+              "region": "白岡市",
+              "address": "埼玉県白岡市新白岡9-3-3",
+              "source": "施設公式",
+              "url": "https://www.ej-welfare.jp/facility/360/",
+              "official_url": "https://www.ej-welfare.jp/facility/360/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00004",
+              "name": "家族倶楽部",
+              "region": "狭山市",
+              "address": "狭山市東三ツ木222-1",
+              "source": "施設公式",
+              "url": "https://www.health-network.co.jp/",
+              "official_url": "https://www.health-network.co.jp/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s_sako0004",
+              "name": "ル・レーヴ羽生古島",
+              "region": "羽生市",
+              "address": "羽生市下羽生",
+              "source": "施設公式",
+              "url": "https://www.ej-welfare.jp/facility/371/",
+              "official_url": "https://www.ej-welfare.jp/facility/371/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00005",
+              "name": "サンシティ熊谷",
+              "region": "熊谷市",
+              "address": "熊谷市大原3-6-1",
+              "source": "施設公式",
+              "url": "https://hcm-suncity.co.jp/suncity/kumagaya/",
+              "official_url": "https://hcm-suncity.co.jp/suncity/kumagaya/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s_sako0005",
+              "name": "ル・レーヴ狭山さくら館",
+              "region": "狭山市",
+              "address": "狭山市中央1-6-4",
+              "source": "施設公式",
+              "url": "https://www.ej-welfare.jp/facility/373/",
+              "official_url": "https://www.ej-welfare.jp/facility/373/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s_sako0006",
+              "name": "ル・レーヴ狭山",
+              "region": "狭山市",
+              "address": "埼玉県狭山市中央一丁目6番14号",
+              "source": "施設公式",
+              "url": "https://www.ej-welfare.jp/facility/369/",
+              "official_url": "https://www.ej-welfare.jp/facility/369/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00007",
+              "name": "ライフコミューンふじみ野",
+              "region": "ふじみ野市",
+              "address": "ふじみ野市丸山4-4",
+              "source": "施設公式",
+              "url": "https://www.kinoshita-kaigo.co.jp/facility/care_home/life-commune_fujimino.html",
+              "official_url": "https://www.kinoshita-kaigo.co.jp/facility/care_home/life-commune_fujimino.html",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s_sako0007",
+              "name": "リーシェ安行",
+              "region": "川口市",
+              "address": "埼玉県川口市安行藤八421-1",
+              "source": "施設公式",
+              "url": "https://www.ej-welfare.jp/facility/375/",
+              "official_url": "https://www.ej-welfare.jp/facility/375/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s_sako0008",
+              "name": "リーシェガーデン和光",
+              "region": "和光市",
+              "address": "埼玉県和光市丸山台2-11-1",
+              "source": "施設公式",
+              "url": "https://www.ej-welfare.jp/facility/370/",
+              "official_url": "https://www.ej-welfare.jp/facility/370/",
+              "decision": "candidate",
+              "note": ""
+            },
+            {
+              "id": "s00009",
+              "name": "応援家族庄和館",
+              "region": "春日部市",
+              "address": "春日部市西金野井64-24",
+              "source": "施設公式",
+              "url": "https://www.kinoshita-kaigo.co.jp/facility/care_home/support-family_harmony-life-shouwakan.html",
+              "official_url": "https://www.kinoshita-kaigo.co.jp/facility/care_home/support-family_harmony-life-shouwakan.html",
+              "decision": "candidate",
+              "note": ""
+            }
+          ]
+          KIRAKU_TARGETS_END
+                    cat > pilot/pilot.py <<'KIRAKU_PYTHON_END'
+          #!/usr/bin/env python3
+          # -*- coding: utf-8 -*-
+          """埼玉県20施設：公開ページの表示を撮影し、空室情報の変更候補だけを保存する。
+
+          重要：スプレッドシート、GAS、Netlifyへの書き込みは一切しない。
+          Google検索は使わず、targets_20.jsonの確認済みURLにだけアクセスする。
+          """
+          import argparse
+          import base64
+          import csv
+          from datetime import datetime, date, timedelta
+          import json
+          import os
+          from pathlib import Path
+          import re
+          import time
+          import unicodedata
+          from urllib.parse import urlsplit
+          from zoneinfo import ZoneInfo
+
+          JST = ZoneInfo('Asia/Tokyo')
+          ALLOWED_HOSTS = ('www.minnanokaigo.com', 'minnanokaigo.com')
+
+
+          def norm(s):
+              s = unicodedata.normalize('NFKC', str(s or '')).lower()
+              s = re.sub(r'(?:介護付き?有料老人ホーム|住宅型有料老人ホーム|有料老人ホーム|サービス付き高齢者向け住宅)', '', s)
+              return re.sub(r'[\s　・･\-‐‑–—―ー~〜～_／/()（）\[\]【】「」『』:：,.，。]', '', s)
+
+
+          def name_match(target, header):
+              a, b = norm(target), norm(header)
+              return len(a) >= 4 and a in b
+
+
+          def dated_context(s, today=None):
+              today = today or datetime.now(JST).date()
+              for regex in (r'(?<!\d)(20\d{2})[年/\-.](\d{1,2})[月/\-.](\d{1,2})日?\s*(?:更新|現在|時点)',
+                            r'(?<!\d)(\d{1,2})月(\d{1,2})日\s*更新',
+                            r'(?<!\d)(\d{1,2})/(\d{1,2})\s*更新'):
+                  m = re.search(regex, s)
+                  if not m: continue
+                  try:
+                      if len(m.groups()) == 3:
+                          yy,mm,dd = map(int,m.groups()); d=date(yy,mm,dd)
+                      else:
+                          mm,dd = map(int,m.groups()); d=date(today.year,mm,dd)
+                          if d > today + timedelta(days=2): d=date(today.year-1,mm,dd)
+                      return m.group(0), (today-d).days
+                  except ValueError:
+                      pass
+              return '',None
+
+
+          def extract_visible(target_name, headings, text, source):
+              """掲載ページの先頭の空室欄だけを解析。関連施設の情報を拾わない保守的判定。"""
+              out={'page_name_match':False,'observed_status':'unknown','observed_rooms':'',
+                   'source_date':'','age_days':None,'reason':'','excerpt':''}
+              # H1が空白/一般的な社名なら推測しない。複数施設を混同しない。
+              out['page_name_match']=any(name_match(target_name,h) for h in headings[:5])
+              if not out['page_name_match']:
+                  out['reason']='ページ見出しと施設名が一致しない（別施設の誤取得防止）'
+                  return out
+              t=(text or '')[:26000]
+              # ページ本文にある「おすすめ施設」「周辺施設」の空室を誤読しないよう先頭の空室欄だけ
+              pos=t.find('空室の状況')
+              if pos<0: pos=t.find('空室状況')
+              if pos<0:
+                  m=re.search(r'(?:1人\s*部屋|居室)\s*(?:残り\s*\d+\s*室|満室)',t[:4200])
+                  pos=max(0,(m.start()-80)) if m else -1
+              if pos<0:
+                  out['reason']='ページ先頭に空室情報欄なし（本文全体から推測しない）'
+                  return out
+              # 文脈を短く取り、関連施設一覧を拾わない
+              snippet=t[pos:pos+680]
+              for stopper in ['おすすめの施設','近隣の施設','「満室で入れない」という方に','口コミご紹介','すべての口コミ']:
+                  pp=snippet.find(stopper)
+                  if pp>=0: snippet=snippet[:pp]
+              out['excerpt']=' '.join(snippet.split())[:350]
+              flat=' '.join(snippet.split())
+              avail=re.findall(r'(?:残り|空室(?:数)?|空き|残室)\s*[:：]?\s*([1-9]\d*)\s*(?:室|部屋|戸)', flat)
+              positive=bool(avail or re.search(r'空室\s*(?:あり|有り)|空き\s*(?:あり|有り)|残りわずか|空室わずか',flat))
+              full=bool(re.search(r'満室|満床|空室なし|空きなし|残室なし|空室\s*0\s*室',flat))
+              if positive:
+                  out['observed_status']='available';out['observed_rooms']=str(max(map(int,avail))) if avail else ''
+              elif full:
+                  out['observed_status']='full';out['observed_rooms']='0'
+              else:
+                  out['reason']='空室欄内で明確な数・満室を判定できず'
+              # 日付も空室欄の近傍だけから読む
+              ds,age=dated_context(snippet)
+              out['source_date'],out['age_days']=ds,age
+              if out['observed_status']!='unknown':
+                  if age is None: out['reason']='掲載更新日未確認のため参考候補（要電話確認）'
+                  elif age>21: out['reason']='掲載更新日が21日超のため参考候補（要電話確認）'
+                  elif age<0: out['reason']='掲載日が未来日。要確認'
+                  else: out['reason']='画面上の情報から確認候補を抽出（実際の空室保証なし）'
+              return out
+
+
+          def vision_from_screenshot(img_paths, target, enabled):
+              return {'vision_status':'not_run','vision_result':'画像はGitHub Artifactsに保存。AI画像判定はこの初回試験では未使用'}
+
+
+          def run(args):
+              from playwright.sync_api import sync_playwright
+              targets=json.loads(Path(args.targets).read_text(encoding='utf-8'))[:20]
+              outdir=Path(args.output);outdir.mkdir(parents=True,exist_ok=True)
+              image_dir=outdir/'screenshots';image_dir.mkdir(exist_ok=True)
+              results=[]
+              with sync_playwright() as p:
+                  opts={'headless':True}
+                  if args.chromium_path:opts['executable_path']=args.chromium_path
+                  browser=p.chromium.launch(**opts)
+                  ctx=browser.new_context(viewport={'width':1350,'height':1000},
+                                            device_scale_factor=1,locale='ja-JP',timezone_id='Asia/Tokyo')
+                  for i,t in enumerate(targets,1):
+                      entry={'no':i,'id':t['id'],'name':t['name'],'region':t['region'],'source':t['source'],
+                             'url':t['url'],'checked_at':datetime.now(JST).isoformat(timespec='seconds'),
+                             'http_code':'','page_title':'','name_match':'','observed_status':'unknown',
+                             'rooms':'','source_date':'','age_days':'','reason':'','screenshot_top':'','screenshot':'','vision_status':'not_run',
+                             'vision_result':'','proposal_only':True}
+                      url=t.get('url') or ''
+                      if t.get('decision')=='manual_only' or not url:
+                          entry['reason']='統合施設・曖昧な施設名のため自動取得を見送り';results.append(entry);continue
+                      parsed=urlsplit(url)
+                      if parsed.scheme!='https' or not parsed.hostname or parsed.hostname.startswith('localhost'):
+                          entry['reason']='URLの安全確認で見送り';results.append(entry);continue
+                      page=ctx.new_page()
+                      try:
+                          resp=page.goto(url,wait_until='domcontentloaded',timeout=args.timeout*1000)
+                          entry['http_code']=resp.status if resp else 'no response'
+                          page.wait_for_timeout(1000)
+                          entry['page_title']=page.title()[:180]
+                          # アクセス制限、ログイン、HTTP失敗時は要確認で保存
+                          if resp and resp.status>=400:
+                              entry['reason']=f'HTTP {resp.status}（取得できず）'
+                          else:
+                              headings=page.locator('h1').all_inner_texts()
+                              if not headings: headings=[entry['page_title']]
+                              body=page.locator('body').inner_text(timeout=8000)
+                              if re.search(r'captcha|access denied|request blocked|ロボットではありません|アクセスが制限',body[:2500],re.I):
+                                  e={'page_name_match':False,'observed_status':'unknown','observed_rooms':'','source_date':'','age_days':None,'reason':'アクセス制限または認証画面の可能性','excerpt':''}
+                              else:
+                                  e=extract_visible(t['name'],headings,body,t['source'])
+                              entry.update({'name_match':e['page_name_match'],'observed_status':e['observed_status'],
+                                            'rooms':e['observed_rooms'],'source_date':e['source_date'],
+                                            'age_days':e['age_days'] if e['age_days'] is not None else '',
+                                            'reason':e['reason']})
+                              # 公開情報の一部だけ監査用に保存。非公開シートには書き込まない
+                              if e['page_name_match']:
+                                  (outdir/(t['id']+'_visible_excerpt.txt')).write_text(e['excerpt'],encoding='utf-8')
+                          # 空室欄にスクロールする前にページ上部も撮影する。
+                          top=image_dir/(f'{i:02d}_{t["id"]}_top.png')
+                          page.screenshot(path=str(top),full_page=False,timeout=8000)
+                          entry['screenshot_top']=str(top.relative_to(outdir))
+                          # 空室欄が見える位置を撮影（写真や推薦欄の無関係な情報は判定しない）
+                          for selector in ('text=空室の状況','text=空室状況'):
+                              try:
+                                  loc=page.get_by_text(selector.split('=',1)[1],exact=False).first
+                                  if loc.count():loc.scroll_into_view_if_needed(timeout=2500);break
+                              except Exception:pass
+                          im=image_dir/(f'{i:02d}_{t["id"]}_vacancy.png')
+                          page.screenshot(path=str(im),full_page=False,timeout=8000)
+                          entry['screenshot']=str(im.relative_to(outdir))
+                          vr=vision_from_screenshot([top,im],t,args.vision)
+                          entry.update(vr)
+                          if vr['vision_status']=='ok':
+                              v=vr['vision_result']
+                              if v.get('name_matched') is False:
+                                  entry['reason']+='／画像AIは施設名の一致を確認できず'
+                          print(f'{i:02}/{len(targets)} {t["name"]}: HTTP={entry["http_code"]} 判定={entry["observed_status"]}')
+                      except Exception as e:
+                          entry['reason']='表示エラー: '+str(e).replace('\n',' ')[:150]
+                          print(f'{i:02}/{len(targets)} {t["name"]}: ERR {entry["reason"]}')
+                      finally:
+                          results.append(entry)
+                          page.close()
+                          if i<len(targets): time.sleep(max(0,args.delay))
+                  browser.close()
+              (outdir/'results_20.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              columns=['no','id','name','source','url','http_code','name_match','observed_status','rooms',
+                       'source_date','age_days','reason','screenshot_top','screenshot','vision_status','vision_result','checked_at','proposal_only']
+              with (outdir/'results_20.csv').open('w',encoding='utf-8-sig',newline='') as f:
+                  w=csv.DictWriter(f,fieldnames=columns,extrasaction='ignore');w.writeheader();w.writerows(results)
+              ok=sum(1 for x in results if x['observed_status'] in ('available','full'))
+              fetched=sum(1 for x in results if x['http_code']==200)
+              lines=['# 埼玉県20施設・画面撮影パイロット結果','',
+                     f'実行：{datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")}',
+                     f'20件中 HTTP200: {fetched}件 / 判定候補: {ok}件',
+                     '**本番データへの書き込みなし。空室は確定情報ではありません。**','',
+                     '| ID | 施設名 | 取得元 | HTTP | 文字判定 | AI画像判定 | 掲載日 | 状況 |',
+                     '|---|---|---|---|---|---|---|---|']
+              for t in results:
+                  reason=str(t['reason']).replace('|','／')[:65]
+                  ai=t['vision_result'] if isinstance(t['vision_result'],dict) else {}
+                  ai_status=ai.get('status','未実施')
+                  lines.append(f'| {t["id"]} | {t["name"]} | {t["source"]} | {t["http_code"]} | {t["observed_status"]} {t["rooms"]} | {ai_status} | {t["source_date"]} | {reason} |')
+              lines.extend(['','※ 開けなかったサイトは推測せず要確認。撮影結果は screenshots/ に保存。',
+                            '※ 掲載日が21日超、または記載がない場合は参考候補・要電話確認。',
+                            '※ 既存の空室件数（135件など）を自動上書きしない。'])
+              (outdir/'report.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+              print(f'\n完了: {len(results)}件 / HTTP200={fetched}件 / 自動判定候補={ok}件。保存先 {outdir}')
+
+
+          if __name__=='__main__':
+              parser=argparse.ArgumentParser()
+              parser.add_argument('--targets',default='targets_20.json')
+              parser.add_argument('--output',default='pilot_result')
+              parser.add_argument('--timeout',type=int,default=28)
+              parser.add_argument('--delay',type=float,default=3.0)
+              parser.add_argument('--chromium-path',default='')
+              parser.add_argument('--vision',action='store_true',help='初回試験はAI画像判定なし（撮影のみ）')
+              run(parser.parse_args())
+          KIRAKU_PYTHON_END
+                    cd pilot
+                    python pilot.py --timeout 25 --delay 3
+
+      - name: Save screenshots and CSV result (no app writes)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: saitama-20-screenpilot-output
+          path: pilot/pilot_result/
+          retention-days: 7
+          if-no-files-found: warn
