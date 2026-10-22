@@ -1,8 +1,8 @@
 {
-  "generated_at_jst": "2026-10-22T09:00:40+09:00",
+  "generated_at_jst": "2026-10-23T08:59:00+09:00",
   "counts": {
-    "取得不可": 405,
-    "空床取得可能": 225,
+    "取得不可": 387,
+    "空床取得可能": 243,
     "待機人数のみ取得可能": 5
   },
   "groups": {
@@ -588,6 +588,36 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/03toubu-tokuyo-0810.pdf"
       },
       {
+        "id": "sk00164",
+        "facility": "さかどロイヤルの園",
+        "type": "特養",
+        "region": "坂戸市",
+        "vacancy": 3,
+        "waiting_count": 17,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00166",
+        "facility": "シャローム・ガーデン坂戸",
+        "type": "特養",
+        "region": "坂戸市",
+        "vacancy": 0,
+        "waiting_count": 83,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00168",
+        "facility": "好日の家",
+        "type": "特養",
+        "region": "坂戸市",
+        "vacancy": 0,
+        "waiting_count": 117,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
         "id": "sk00178",
         "facility": "こぶしの里",
         "type": "特養",
@@ -638,6 +668,16 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-tokuyo-0810.pdf"
       },
       {
+        "id": "sk00187",
+        "facility": "小川ひなた荘",
+        "type": "特養",
+        "region": "小川町",
+        "vacancy": 0,
+        "waiting_count": 18,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
         "id": "sk00188",
         "facility": "小鹿野苑",
         "type": "特養",
@@ -666,6 +706,26 @@
         "waiting_count": 52,
         "vacancy_date": "2026-09-29",
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/10titibu-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00191",
+        "facility": "らんざん苑",
+        "type": "特養",
+        "region": "嵐山町",
+        "vacancy": 0,
+        "waiting_count": 44,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00192",
+        "facility": "武蔵野ユートピアダイアナ クラブ",
+        "type": "特養",
+        "region": "嵐山町",
+        "vacancy": 13,
+        "waiting_count": 10,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00193",
@@ -846,6 +906,86 @@
         "waiting_count": 15,
         "vacancy_date": "2026-09-28",
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/01nanbu-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00225",
+        "facility": "ひまわり",
+        "type": "特養",
+        "region": "川島町",
+        "vacancy": 0,
+        "waiting_count": 30,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00227",
+        "facility": "ここしあ",
+        "type": "特養",
+        "region": "川越市",
+        "vacancy": 0,
+        "waiting_count": 42,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00230",
+        "facility": "ひろ家",
+        "type": "特養",
+        "region": "川越市",
+        "vacancy": 0,
+        "waiting_count": 4,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00232",
+        "facility": "みどりのまち親愛",
+        "type": "特養",
+        "region": "川越市",
+        "vacancy": 2,
+        "waiting_count": 45,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00233",
+        "facility": "みなみかぜ",
+        "type": "特養",
+        "region": "川越市",
+        "vacancy": 6,
+        "waiting_count": 89,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00234",
+        "facility": "みなみかぜ・燦",
+        "type": "特養",
+        "region": "川越市",
+        "vacancy": 1,
+        "waiting_count": 27,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00240",
+        "facility": "清風園川越",
+        "type": "特養",
+        "region": "川越市",
+        "vacancy": 2,
+        "waiting_count": null,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00242",
+        "facility": "蔵の町・川越",
+        "type": "特養",
+        "region": "川越市",
+        "vacancy": 0,
+        "waiting_count": 62,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00244",
@@ -1158,6 +1298,16 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/08tone-tokuyo-0810.pdf"
       },
       {
+        "id": "sk00319",
+        "facility": "ふるさとの杜かみのもと",
+        "type": "特養",
+        "region": "東松山市",
+        "vacancy": 2,
+        "waiting_count": 76,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
         "id": "sk00325",
         "facility": "はにわの里",
         "type": "特養",
@@ -1216,6 +1366,16 @@
         "waiting_count": 74,
         "vacancy_date": "2026-09-29",
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/10titibu-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00333",
+        "facility": "ななふく苑",
+        "type": "特養",
+        "region": "毛呂山町",
+        "vacancy": 0,
+        "waiting_count": 87,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00337",
@@ -1538,6 +1698,16 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/08tone-tokuyo-0810.pdf"
       },
       {
+        "id": "sk00420",
+        "facility": "光の丘",
+        "type": "特養",
+        "region": "越生町",
+        "vacancy": 3,
+        "waiting_count": 3,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
+      },
+      {
         "id": "sk00422",
         "facility": "えくぼ",
         "type": "特養",
@@ -1716,6 +1886,16 @@
         "waiting_count": null,
         "vacancy_date": "2026-09-29",
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/05kenou-tokuyo-0810.pdf"
+      },
+      {
+        "id": "sk00457",
+        "facility": "清光苑",
+        "type": "特養",
+        "region": "鶴ヶ島市",
+        "vacancy": 1,
+        "waiting_count": 41,
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00461",
@@ -2778,8 +2958,8 @@
         "region": "ときがわ町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00076",
@@ -2788,8 +2968,8 @@
         "region": "ときがわ町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00077",
@@ -3328,8 +3508,8 @@
         "region": "吉見町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00163",
@@ -3342,34 +3522,14 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-tokuyo-0810.pdf"
       },
       {
-        "id": "sk00164",
-        "facility": "さかどロイヤルの園",
-        "type": "特養",
-        "region": "坂戸市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
         "id": "sk00165",
         "facility": "サークルホームかたやな ぎ",
         "type": "特養",
         "region": "坂戸市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00166",
-        "facility": "シャローム・ガーデン坂戸",
-        "type": "特養",
-        "region": "坂戸市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00167",
@@ -3378,18 +3538,8 @@
         "region": "坂戸市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00168",
-        "facility": "好日の家",
-        "type": "特養",
-        "region": "坂戸市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00169",
@@ -3398,8 +3548,8 @@
         "region": "坂戸市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00170",
@@ -3518,38 +3668,8 @@
         "region": "小川町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00187",
-        "facility": "小川ひなた荘",
-        "type": "特養",
-        "region": "小川町",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00191",
-        "facility": "らんざん苑",
-        "type": "特養",
-        "region": "嵐山町",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00192",
-        "facility": "武蔵野ユートピアダイアナ クラブ",
-        "type": "特養",
-        "region": "嵐山町",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00194",
@@ -3692,34 +3812,14 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/01nanbu-tokuyo-0810.pdf"
       },
       {
-        "id": "sk00225",
-        "facility": "ひまわり",
-        "type": "特養",
-        "region": "川島町",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
         "id": "sk00226",
         "facility": "永楽園",
         "type": "特養",
         "region": "川島町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00227",
-        "facility": "ここしあ",
-        "type": "特養",
-        "region": "川越市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00228",
@@ -3728,8 +3828,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00229",
@@ -3738,18 +3838,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00230",
-        "facility": "ひろ家",
-        "type": "特養",
-        "region": "川越市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00231",
@@ -3758,38 +3848,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00232",
-        "facility": "みどりのまち親愛",
-        "type": "特養",
-        "region": "川越市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00233",
-        "facility": "みなみかぜ",
-        "type": "特養",
-        "region": "川越市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00234",
-        "facility": "みなみかぜ・燦",
-        "type": "特養",
-        "region": "川越市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00235",
@@ -3798,8 +3858,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00236",
@@ -3808,8 +3868,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00237",
@@ -3818,8 +3878,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00238",
@@ -3828,8 +3888,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00239",
@@ -3838,18 +3898,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00240",
-        "facility": "清風園川越",
-        "type": "特養",
-        "region": "川越市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00241",
@@ -3858,18 +3908,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00242",
-        "facility": "蔵の町・川越",
-        "type": "特養",
-        "region": "川越市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00243",
@@ -3878,8 +3918,8 @@
         "region": "川越市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00245",
@@ -4318,18 +4358,8 @@
         "region": "東松山市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00319",
-        "facility": "ふるさとの杜かみのもと",
-        "type": "特養",
-        "region": "東松山市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00320",
@@ -4338,8 +4368,8 @@
         "region": "東松山市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00321",
@@ -4348,8 +4378,8 @@
         "region": "東松山市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00322",
@@ -4358,8 +4388,8 @@
         "region": "東松山市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00323",
@@ -4368,8 +4398,8 @@
         "region": "東秩父村",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00324",
@@ -4402,24 +4432,14 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/10titibu-tokuyo-0809.pdf"
       },
       {
-        "id": "sk00333",
-        "facility": "ななふく苑",
-        "type": "特養",
-        "region": "毛呂山町",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
         "id": "sk00334",
         "facility": "ナーシングヴィラ本郷",
         "type": "特養",
         "region": "毛呂山町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00335",
@@ -4428,8 +4448,8 @@
         "region": "毛呂山町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00336",
@@ -4498,8 +4518,8 @@
         "region": "滑川町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00349",
@@ -4922,24 +4942,14 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/08tone-tokuyo-0810.pdf"
       },
       {
-        "id": "sk00420",
-        "facility": "光の丘",
-        "type": "特養",
-        "region": "越生町",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
         "id": "sk00421",
         "facility": "四季の郷越生",
         "type": "特養",
         "region": "越生町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00423",
@@ -5038,8 +5048,8 @@
         "region": "鳩山町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00445",
@@ -5048,8 +5058,8 @@
         "region": "鳩山町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00446",
@@ -5108,18 +5118,8 @@
         "region": "鶴ヶ島市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
-      },
-      {
-        "id": "sk00457",
-        "facility": "清光苑",
-        "type": "特養",
-        "region": "鶴ヶ島市",
-        "vacancy": null,
-        "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00458",
@@ -5128,8 +5128,8 @@
         "region": "鶴ヶ島市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00459",
@@ -5138,8 +5138,8 @@
         "region": "鶴ヶ島市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0809.pdf"
+        "vacancy_date": "2026-09-29",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-tokuyo-0810.pdf"
       },
       {
         "id": "sk00460",
