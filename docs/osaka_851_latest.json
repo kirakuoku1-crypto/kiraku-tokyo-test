@@ -7,7 +7,7 @@
     "取得不可": "確認した公式・公的サイトから空床・待機人数のいずれも機械取得できない"
   },
   "total_facilities": 851,
-  "generated_at_jst": "2026-10-22T11:25:51+09:00",
+  "generated_at_jst": "2026-10-22T11:26:08+09:00",
   "mhlw_open_data_urls": {
     "510": "https://www.mhlw.go.jp/content/12300000/jigyosho_510_all_20260709180754.csv",
     "520": "https://www.mhlw.go.jp/content/12300000/jigyosho_520_all_20260709180802.csv",
@@ -17,12 +17,12 @@
   "summary": {
     "records": 851,
     "classification_counts": {
-      "取得不可": 829,
-      "空床取得可能": 22
+      "取得不可": 830,
+      "空床取得可能": 21
     },
     "matched_official_pages": 821,
-    "vacancy_values_numeric": 14,
-    "waiting_values": 1
+    "vacancy_values_numeric": 13,
+    "waiting_values": 0
   },
   "data": [
     {
@@ -23835,21 +23835,21 @@
       "service_cd": "550",
       "match_method": "mhlw_name_address",
       "match_score": 1.0,
-      "classification": "空床取得可能",
-      "vacancy": 1,
-      "capacity": 58,
-      "waiting_count": 1,
-      "vacancy_date": "2026-03-13",
-      "public_value": "1/58人",
-      "vacancy_source_type": "厚労省公式",
-      "vacancy_source_url": "https://www.kaigokensaku.mhlw.go.jp/27/index.php?JigyosyoCd=27B5000018-00&ServiceCd=550&action_kouhyou_detail_feature_index=true",
-      "waiting_source_url": "https://www.kaigokensaku.mhlw.go.jp/27/index.php?JigyosyoCd=27B5000018-00&ServiceCd=550&action_kouhyou_detail_034_kani=true",
-      "official_homepage": "",
-      "checked_at_jst": "2026-10-21T06:06:44+09:00",
-      "feature_http_status": 200,
-      "detail_http_status": 200,
-      "status": "ok",
-      "error": "",
+      "classification": "取得不可",
+      "vacancy": null,
+      "capacity": null,
+      "waiting_count": null,
+      "vacancy_date": "",
+      "public_value": "",
+      "vacancy_source_type": "",
+      "vacancy_source_url": "",
+      "waiting_source_url": "",
+      "official_homepage": "https://ortho-g.co.jp/takei/hospital/",
+      "checked_at_jst": "2026-10-22T11:25:53+09:00",
+      "feature_http_status": null,
+      "detail_http_status": null,
+      "status": "http_error",
+      "error": "feature:HTTP 503 | detail:HTTP 503 | waiting:HTTP 503",
       "feature_url": "https://www.kaigokensaku.mhlw.go.jp/27/index.php?JigyosyoCd=27B5000018-00&ServiceCd=550&action_kouhyou_detail_feature_index=true",
       "detail_url": "https://www.kaigokensaku.mhlw.go.jp/27/index.php?JigyosyoCd=27B5000018-00&ServiceCd=550&action_kouhyou_detail_034_kihon=true"
     }
