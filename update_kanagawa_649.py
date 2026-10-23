@@ -130,9 +130,12 @@ def decode_body(body: bytes, content_type: str) -> str:
     return body.decode("utf-8", errors="replace")
 
 
-def fetch_page(url: str, attempts: int = 3):
+def fetch_page(url: str, attempts: int = 3, retry_delays=None):
+    """Retry temporary HTTP 5xx/429 errors; never retry permanent 404 responses."""
     last_error = ""
+    delays = retry_delays if retry_delays is not None else (2, 5, 15)
     for attempt in range(1, attempts + 1):
+        retryable = True
         try:
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=45) as resp:
@@ -141,16 +144,21 @@ def fetch_page(url: str, attempts: int = 3):
                 source = decode_body(body, resp.headers.get("Content-Type", ""))
                 if status == 200 and source:
                     return status, source, ""
-                last_error = f"HTTP {status}"
+                last_error = f"HTTP {status}" if status != 200 else "empty response"
+                retryable = status in (408, 429, 500, 502, 503, 504)
         except urllib.error.HTTPError as e:
             last_error = f"HTTP {e.code}"
+            retryable = e.code in (408, 429, 500, 502, 503, 504)
         except urllib.error.URLError as e:
             last_error = f"URL error: {e.reason}"
         except Exception as e:
             last_error = f"{type(e).__name__}: {e}"
 
-        if attempt < attempts:
-            time.sleep(1.2 * attempt)
+        if attempt >= attempts or not retryable:
+            break
+        pause = delays[min(attempt - 1, len(delays) - 1)]
+        print(f"Official source: {last_error}; retry {attempt + 1}/{attempts} in {pause}s", flush=True)
+        time.sleep(pause)
 
     return None, "", last_error
 
@@ -459,28 +467,33 @@ def save_outputs(records_by_no, total_facilities: int):
 
 
 def preflight(facilities):
+    """Probe up to 3 separate offices, not only the first office in the CSV."""
+    checked = set()
+    errors = []
     for fac in facilities:
-        ids = extract_office_numbers(fac.get("jigyosyo_cd"))
-        if not ids:
-            continue
-        office_no = ids[0]
-        svc = service_cd_for(
-            office_no,
-            fac.get("service_cd", ""),
-            fac.get("type", ""),
-        )
-        url = make_url(office_no, svc)
-        status, source, err = fetch_page(url, attempts=2)
-        if status == 200 and source:
-            text = html_to_text(source)
-            if "介護保険事業所番号" in text and office_no in text:
-                print(f"Preflight OK: {office_no} {url}")
-                return
-        raise RuntimeError(
-            f"公式取得元に接続できません。データは更新しません。"
-            f" office={office_no} status={status} error={err}"
-        )
-    raise RuntimeError("事業所番号が見つからないため実行できません")
+        for office_no in extract_office_numbers(fac.get("jigyosyo_cd")):
+            if office_no in checked:
+                continue
+            checked.add(office_no)
+            svc = service_cd_for(office_no, fac.get("service_cd", ""), fac.get("type", ""))
+            url = make_url(office_no, svc)
+            tries = 4 if len(checked) == 1 else 2
+            pauses = (15, 30, 60) if len(checked) == 1 else (5,)
+            status, source, err = fetch_page(url, attempts=tries, retry_delays=pauses)
+            if status == 200 and source:
+                text = html_to_text(source)
+                if "介護保険事業所番号" in text and office_no in text:
+                    print(f"Preflight OK: {office_no}", flush=True)
+                    return
+                err = "official detail page not recognized"
+            errors.append(f"office={office_no} status={status} error={err}")
+            print(f"Preflight failed: {errors[-1]}", flush=True)
+            if len(checked) >= 3:
+                raise RuntimeError(
+                    "公式取得元の3事業所に接続できません。既存データを保持して終了: "
+                    + " | ".join(errors)
+                )
+    raise RuntimeError("公式取得元に接続できません。既存データを保持: " + " | ".join(errors))
 
 
 def main():
@@ -505,10 +518,20 @@ def main():
     )
 
     batch_results = []
+    preserved = 0
     for i, fac in enumerate(subset, 1):
         r = update_one(fac)
         batch_results.append(r)
-        records[r["no"]] = r
+        previous = records.get(r["no"])
+        has_previous_public_value = previous is not None and any(
+            previous.get(field) is not None for field in ("vacancy", "waiting_count")
+        )
+        # Never replace previously obtained values with a source failure.
+        if has_previous_public_value and r["status"] in ("error", "ok_no_public_value"):
+            preserved += 1
+            print(f"Keep last known public values: No.{r['no']}", flush=True)
+        else:
+            records[r["no"]] = r
         print(
             f"[{i}/{len(subset)}] No.{r['no']} {r['facility']} "
             f"status={r['status']} vacancy={r['vacancy']} "
@@ -532,6 +555,7 @@ def main():
             {
                 "batch": len(batch_results),
                 "hard_errors": hard_errors,
+                "preserved_previous": preserved,
                 "vacancy_values": sum(
                     isinstance(r.get("vacancy"), int) for r in batch_results
                 ),
