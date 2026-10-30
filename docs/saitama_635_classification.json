@@ -1,8 +1,8 @@
 {
-  "generated_at_jst": "2026-10-29T09:53:11+09:00",
+  "generated_at_jst": "2026-10-30T09:56:11+09:00",
   "counts": {
-    "取得不可": 387,
-    "空床取得可能": 243,
+    "取得不可": 397,
+    "空床取得可能": 233,
     "待機人数のみ取得可能": 5
   },
   "groups": {
@@ -1998,56 +1998,6 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/04saitama-roken-0810.pdf"
       },
       {
-        "id": "sk00484",
-        "facility": "さくらの里",
-        "type": "老健",
-        "region": "ふじみ野市",
-        "vacancy": 0,
-        "waiting_count": 5,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
-        "id": "sk00485",
-        "facility": "ふじみ野介護老人保健施設ベテラン館",
-        "type": "老健",
-        "region": "ふじみ野市",
-        "vacancy": 1,
-        "waiting_count": 2,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
-        "id": "sk00486",
-        "facility": "イムスケアふじみの",
-        "type": "老健",
-        "region": "ふじみ野市",
-        "vacancy": 0,
-        "waiting_count": 0,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
-        "id": "sk00487",
-        "facility": "上福岡リハケアセンター",
-        "type": "老健",
-        "region": "ふじみ野市",
-        "vacancy": 3,
-        "waiting_count": 3,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
-        "id": "sk00488",
-        "facility": "秋桜の里",
-        "type": "老健",
-        "region": "ふじみ野市",
-        "vacancy": 2,
-        "waiting_count": 3,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
         "id": "sk00495",
         "facility": "エルサ上尾",
         "type": "老健",
@@ -2128,16 +2078,6 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0810.pdf"
       },
       {
-        "id": "sk00523",
-        "facility": "富士見の里",
-        "type": "老健",
-        "region": "富士見市",
-        "vacancy": 0,
-        "waiting_count": 5,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
         "id": "sk00542",
         "facility": "コスモス苑",
         "type": "老健",
@@ -2146,46 +2086,6 @@
         "waiting_count": 0,
         "vacancy_date": "2026-09-29",
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/01nanbu-roken-0810.pdf"
-      },
-      {
-        "id": "sk00551",
-        "facility": "四季の里",
-        "type": "老健",
-        "region": "新座市",
-        "vacancy": 5,
-        "waiting_count": 1,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
-        "id": "sk00552",
-        "facility": "新座園",
-        "type": "老健",
-        "region": "新座市",
-        "vacancy": 7,
-        "waiting_count": 5,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
-        "id": "sk00559",
-        "facility": "つつじの郷",
-        "type": "老健",
-        "region": "朝霞市",
-        "vacancy": 1,
-        "waiting_count": 0,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
-      },
-      {
-        "id": "sk00560",
-        "facility": "グリーンビレッジ朝霞台",
-        "type": "老健",
-        "region": "朝霞市",
-        "vacancy": 2,
-        "waiting_count": 2,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
       },
       {
         "id": "sk00562",
@@ -5282,14 +5182,64 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/04saitama-roken-0810.pdf"
       },
       {
+        "id": "sk00484",
+        "facility": "さくらの里",
+        "type": "老健",
+        "region": "ふじみ野市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
+        "id": "sk00485",
+        "facility": "ふじみ野介護老人保健施設ベテラン館",
+        "type": "老健",
+        "region": "ふじみ野市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
+        "id": "sk00486",
+        "facility": "イムスケアふじみの",
+        "type": "老健",
+        "region": "ふじみ野市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
+        "id": "sk00487",
+        "facility": "上福岡リハケアセンター",
+        "type": "老健",
+        "region": "ふじみ野市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
+        "id": "sk00488",
+        "facility": "秋桜の里",
+        "type": "老健",
+        "region": "ふじみ野市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
         "id": "sk00489",
         "facility": "むさしの苑",
         "type": "老健",
         "region": "三芳町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
       },
       {
         "id": "sk00490",
@@ -5298,8 +5248,8 @@
         "region": "三芳町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
       },
       {
         "id": "sk00491",
@@ -5308,8 +5258,8 @@
         "region": "三芳町",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
       },
       {
         "id": "sk00492",
@@ -5468,8 +5418,8 @@
         "region": "和光市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
       },
       {
         "id": "sk00516",
@@ -5542,14 +5492,24 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/09hokubu-roken-0810.pdf"
       },
       {
+        "id": "sk00523",
+        "facility": "富士見の里",
+        "type": "老健",
+        "region": "富士見市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
         "id": "sk00524",
         "facility": "葵の園・富士見",
         "type": "老健",
         "region": "富士見市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
       },
       {
         "id": "sk00525",
@@ -5558,8 +5518,8 @@
         "region": "富士見市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
       },
       {
         "id": "sk00526",
@@ -5718,8 +5678,8 @@
         "region": "志木市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
       },
       {
         "id": "sk00543",
@@ -5802,6 +5762,26 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/07seibu-roken-0810.pdf"
       },
       {
+        "id": "sk00551",
+        "facility": "四季の里",
+        "type": "老健",
+        "region": "新座市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
+        "id": "sk00552",
+        "facility": "新座園",
+        "type": "老健",
+        "region": "新座市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
         "id": "sk00553",
         "facility": "日高の里",
         "type": "老健",
@@ -5862,14 +5842,34 @@
         "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0809.pdf"
       },
       {
+        "id": "sk00559",
+        "facility": "つつじの郷",
+        "type": "老健",
+        "region": "朝霞市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
+        "id": "sk00560",
+        "facility": "グリーンビレッジ朝霞台",
+        "type": "老健",
+        "region": "朝霞市",
+        "vacancy": null,
+        "waiting_count": null,
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
+      },
+      {
         "id": "sk00561",
         "facility": "ケアライフ朝霞",
         "type": "老健",
         "region": "朝霞市",
         "vacancy": null,
         "waiting_count": null,
-        "vacancy_date": "2026-09-29",
-        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf"
+        "vacancy_date": "",
+        "vacancy_source_url": "https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf"
       },
       {
         "id": "sk00563",
