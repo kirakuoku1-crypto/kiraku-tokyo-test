@@ -198,6 +198,11 @@
 空床取得可能,sk00478,高齢者ケアセンター ゆらぎ,老健,さいたま市西区,0,2,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/04saitama-roken-0810.pdf
 空床取得可能,sk00480,アーバンみらいハートランド東大宮,老健,さいたま市見沼区,8,3,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/04saitama-roken-0810.pdf
 空床取得可能,sk00481,ハートケア東大宮,老健,さいたま市見沼区,3,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/04saitama-roken-0810.pdf
+空床取得可能,sk00484,さくらの里,老健,ふじみ野市,0,5,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+空床取得可能,sk00485,ふじみ野介護老人保健施設ベテラン館,老健,ふじみ野市,1,2,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+空床取得可能,sk00486,イムスケアふじみの,老健,ふじみ野市,0,0,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+空床取得可能,sk00487,上福岡リハケアセンター,老健,ふじみ野市,3,3,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+空床取得可能,sk00488,秋桜の里,老健,ふじみ野市,2,3,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
 空床取得可能,sk00495,エルサ上尾,老健,上尾市,5,0,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/05kenou-roken-0810.pdf
 空床取得可能,sk00498,みやじま,老健,久喜市,10,5,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/08tone-roken-0810.pdf
 空床取得可能,sk00501,鶴寿の里ナーシングホーム,老健,久喜市,3,2,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/08tone-roken-0810.pdf
@@ -206,7 +211,12 @@
 空床取得可能,sk00508,ケア・ビレッジ シャローム,老健,加須市,10,0,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/08tone-roken-0810.pdf
 空床取得可能,sk00510,虹の園,老健,加須市,13,0,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/08tone-roken-0810.pdf
 空床取得可能,sk00513,ケアリングよしかわ,老健,吉川市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0810.pdf
+空床取得可能,sk00523,富士見の里,老健,富士見市,0,5,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
 空床取得可能,sk00542,コスモス苑,老健,戸田市,9,0,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/01nanbu-roken-0810.pdf
+空床取得可能,sk00551,四季の里,老健,新座市,5,1,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+空床取得可能,sk00552,新座園,老健,新座市,7,5,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+空床取得可能,sk00559,つつじの郷,老健,朝霞市,1,0,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+空床取得可能,sk00560,グリーンビレッジ朝霞台,老健,朝霞市,2,2,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
 空床取得可能,sk00562,彩の苑,老健,本庄市,8,2,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/09hokubu-roken-0810.pdf
 空床取得可能,sk00564,わかばの丘,老健,東松山市,3,1,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
 空床取得可能,sk00565,東松山市総合福祉エリア,老健,東松山市,3,3,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
@@ -516,14 +526,9 @@
 取得不可,sk00479,あすか,老健,さいたま市見沼区,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/04saitama-roken-0810.pdf
 取得不可,sk00482,大宮ナーシング・ピア,老健,さいたま市見沼区,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/04saitama-roken-0810.pdf
 取得不可,sk00483,高齢者ケアセンター のぞみ,老健,さいたま市見沼区,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/04saitama-roken-0810.pdf
-取得不可,sk00484,さくらの里,老健,ふじみ野市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00485,ふじみ野介護老人保健施設ベテラン館,老健,ふじみ野市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00486,イムスケアふじみの,老健,ふじみ野市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00487,上福岡リハケアセンター,老健,ふじみ野市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00488,秋桜の里,老健,ふじみ野市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00489,むさしの苑,老健,三芳町,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00490,エムズガーデン,老健,三芳町,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00491,埼玉ロイヤルケアセンター,老健,三芳町,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
+取得不可,sk00489,むさしの苑,老健,三芳町,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+取得不可,sk00490,エムズガーデン,老健,三芳町,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+取得不可,sk00491,埼玉ロイヤルケアセンター,老健,三芳町,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
 取得不可,sk00492,三郷ケアセンター,老健,三郷市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0810.pdf
 取得不可,sk00493,あげお愛友の里,老健,上尾市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/05kenou-roken-0810.pdf
 取得不可,sk00494,ふれあいの郷あげお,老健,上尾市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/05kenou-roken-0810.pdf
@@ -539,7 +544,7 @@
 取得不可,sk00511,いこいの家,老健,北本市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/05kenou-roken-0810.pdf
 取得不可,sk00512,カントリーハーベスト北本,老健,北本市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/05kenou-roken-0810.pdf
 取得不可,sk00514,もえぎ野,老健,吉見町,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
-取得不可,sk00515,ナーシングホーム和光,老健,和光市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
+取得不可,sk00515,ナーシングホーム和光,老健,和光市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
 取得不可,sk00516,すみよし,老健,坂戸市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
 取得不可,sk00517,はつらつ,老健,坂戸市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
 取得不可,sk00518,やまぶきの郷,老健,坂戸市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
@@ -547,9 +552,8 @@
 取得不可,sk00520,公設宮代福祉医療センター介護老人保健施設六花,老健,宮代町,,,,https://www.pref.saitama.lg.jp/documents/8507/08tone-roken-0809.pdf
 取得不可,sk00521,やまざくら,老健,寄居町,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/09hokubu-roken-0810.pdf
 取得不可,sk00522,逍遥の郷,老健,寄居町,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/09hokubu-roken-0810.pdf
-取得不可,sk00523,富士見の里,老健,富士見市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00524,葵の園・富士見,老健,富士見市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00525,鶴瀬台の里,老健,富士見市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
+取得不可,sk00524,葵の園・富士見,老健,富士見市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
+取得不可,sk00525,鶴瀬台の里,老健,富士見市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
 取得不可,sk00526,かわぐちナーシングホーム,老健,川口市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/01nanbu-roken-0810.pdf
 取得不可,sk00527,グリーンビレッジ安行,老健,川口市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/01nanbu-roken-0810.pdf
 取得不可,sk00528,ミレニアムマッシーランド,老健,川口市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/01nanbu-roken-0810.pdf
@@ -565,7 +569,7 @@
 取得不可,sk00538,川越ケアセンター,老健,川越市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
 取得不可,sk00539,瑞穂の里,老健,川越市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
 取得不可,sk00540,幸手ナーシングホーム,老健,幸手市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/08tone-roken-0810.pdf
-取得不可,sk00541,志木瑞穂の里,老健,志木市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
+取得不可,sk00541,志木瑞穂の里,老健,志木市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
 取得不可,sk00543,戸田市立介護老人保健施設,老健,戸田市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/01nanbu-roken-0810.pdf
 取得不可,sk00544,さんとめ,老健,所沢市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/07seibu-roken-0810.pdf
 取得不可,sk00545,みかじま,老健,所沢市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/07seibu-roken-0810.pdf
@@ -574,17 +578,13 @@
 取得不可,sk00548,所沢ロイヤルの丘,老健,所沢市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/07seibu-roken-0810.pdf
 取得不可,sk00549,遊,老健,所沢市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/07seibu-roken-0810.pdf
 取得不可,sk00550,雪見野ケアセンター,老健,所沢市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/07seibu-roken-0810.pdf
-取得不可,sk00551,四季の里,老健,新座市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00552,新座園,老健,新座市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
 取得不可,sk00553,日高の里,老健,日高市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/07seibu-roken-0810.pdf
 取得不可,sk00554,ちとせ,老健,春日部市,,,,https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0809.pdf
 取得不可,sk00555,介護老人保健施設ウイステリア,老健,春日部市,,,,https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0809.pdf
 取得不可,sk00556,春日部ロイヤルケアセンター,老健,春日部市,,,,https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0809.pdf
 取得不可,sk00557,春日部認知症保健福祉センター,老健,春日部市,,,,https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0809.pdf
 取得不可,sk00558,葵の園・春日部,老健,春日部市,,,,https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0809.pdf
-取得不可,sk00559,つつじの郷,老健,朝霞市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00560,グリーンビレッジ朝霞台,老健,朝霞市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
-取得不可,sk00561,ケアライフ朝霞,老健,朝霞市,,,,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0809.pdf
+取得不可,sk00561,ケアライフ朝霞,老健,朝霞市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/02nanseibu-roken-0810.pdf
 取得不可,sk00563,本庄ナーシングホーム,老健,本庄市,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/09hokubu-roken-0810.pdf
 取得不可,sk00566,みどうの杜,老健,東秩父村,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/06kawagoehiki-roken-0810.pdf
 取得不可,sk00568,なのはなの里,老健,松伏町,,,2026-09-29,https://www.pref.saitama.lg.jp/documents/8507/03toubu-roken-0810.pdf
